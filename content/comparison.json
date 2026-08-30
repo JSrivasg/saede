@@ -1,0 +1,155 @@
+{
+  "_readme": [
+    "The €360-400+ range is what it realistically costs to assemble this yourself:",
+    "nineteen separate products at premium-brand prices, bought individually rather",
+    "than hunted for at the lowest price across many retailers over weeks, with",
+    "delivery paid on each.",
+    "",
+    "The underlying basket research is in 'Saede ingredient cost.docx' and the rows",
+    "below (EUR 387 for one of everything, Spain/EU, Aug 2026).",
+    "",
+    "Competitor brand names are deliberately NOT shown on the page.",
+    "",
+    "NOTE FOR THE REGULATORY REVIEWER: comparative pricing must be substantiable.",
+    "Keep the sourcing evidence for this range on file — see COPY-REVIEW.md."
+  ],
+  "verified": true,
+  "currency": "€",
+  "groups": [
+    {
+      "title": "To replace {{hero}}",
+      "subtotal": "205.14",
+      "rows": [
+        {
+          "item": "Saw palmetto 320 mg",
+          "meta": "NOW Foods Saw Palmetto Extract, 90 softgels",
+          "price": "16.00",
+          "live": false
+        },
+        {
+          "item": "Pumpkin seed oil",
+          "meta": "Health Aid cold-pressed 1000 mg, 60 caps",
+          "price": "23.94",
+          "live": true
+        },
+        {
+          "item": "Ashwagandha KSM-66 600 mg",
+          "meta": "natural elements Organic KSM-66, 180 caps",
+          "price": "22.00",
+          "live": false
+        },
+        {
+          "item": "Nettle root 300 mg",
+          "meta": "Arkopharma Arkocápsulas Raíz de Ortiga, 48 caps",
+          "price": "13.00",
+          "live": false
+        },
+        {
+          "item": "Tocotrienol complex",
+          "meta": "Life Extension Super Absorbable Tocotrienols, 60 softgels",
+          "price": "30.00",
+          "live": false
+        },
+        {
+          "item": "Vitamin D3 1000 IU",
+          "meta": "Solgar Vitamin D3, 100 caps",
+          "price": "10.00",
+          "live": false
+        },
+        {
+          "item": "Iron bisglycinate",
+          "meta": "Solgar Gentle Iron (Ferrochel), 90 caps",
+          "price": "21.20",
+          "live": true
+        },
+        {
+          "item": "Zinc",
+          "meta": "Solgar chelated zinc, 100 caps",
+          "price": "9.00",
+          "live": false
+        },
+        {
+          "item": "Selenium",
+          "meta": "Solgar Selenium selenomethionine, 100 caps",
+          "price": "11.00",
+          "live": false
+        },
+        {
+          "item": "Biotin",
+          "meta": "Solgar Biotin, 50 caps",
+          "price": "14.00",
+          "live": false
+        },
+        {
+          "item": "Vitamin B-complex",
+          "meta": "Solgar Formula B-Complex \"100\", 50 caps",
+          "price": "22.00",
+          "live": false
+        },
+        {
+          "item": "Horsetail 200 mg",
+          "meta": "Arkopharma Arkocápsulas Cola de Caballo, 100 caps",
+          "price": "13.00",
+          "live": false
+        }
+      ]
+    },
+    {
+      "title": "To replace {{partner}}",
+      "subtotal": "181.61",
+      "rows": [
+        {
+          "item": "Hydrolyzed marine collagen 5 g",
+          "meta": "Vital Proteins Marine Collagen unflavoured, 221 g",
+          "price": "40.00",
+          "live": false
+        },
+        {
+          "item": "Myo-inositol 4 g + D-chiro 100 mg",
+          "meta": "Theralogix Ovasitol, 40:1 ratio, NSF certified, 400 g",
+          "price": "60.00",
+          "live": false
+        },
+        {
+          "item": "Vitamin C 250 mg",
+          "meta": "Solgar Vitamin C / Ester-C, 90 caps",
+          "price": "15.00",
+          "live": false
+        },
+        {
+          "item": "Hyaluronic acid 120 mg",
+          "meta": "Solgar Hyaluronic Acid Complex, 30 tablets",
+          "price": "25.86",
+          "live": true
+        },
+        {
+          "item": "L-lysine 500 mg",
+          "meta": "Solgar L-Lysine 500 mg, 50 caps",
+          "price": "14.75",
+          "live": true
+        },
+        {
+          "item": "L-cysteine 100 mg",
+          "meta": "Solgar L-Cysteine 500 mg, 30 caps",
+          "price": "14.00",
+          "live": false
+        },
+        {
+          "item": "L-methionine 100 mg",
+          "meta": "Solgar L-Methionine 500 mg, 30 caps",
+          "price": "12.00",
+          "live": true
+        }
+      ]
+    }
+  ],
+  "normalised_low": "360",
+  "normalised_high": "400",
+  "saede_price": "99",
+  "saede_note": "Both products, delivered together every 28 days",
+  "footnote": "Most support protocols leave a gap. You buy the hair supplement, then find you also need iron, then collagen, then something for the hormonal side — four purchases, four delivery charges, and no way of knowing whether the amounts add up. Saede is built as the whole thing: the androgen pathway, the stress and cortisol side, the hormonal picture underneath, and the nutrients hair is built from. One system, nothing left for you to work out.",
+  "theirs_label": "Building it yourself, one bottle at a time",
+  "theirs_note": "Nineteen separate products from other EU premium brands, bought individually to approximate the same blend — plus delivery on each of them.",
+  "line": "We give you the full doses you need, so you can stop looking for more.",
+  "theirs_suffix": "+"
+}

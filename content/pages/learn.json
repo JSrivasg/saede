@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Learn — Saede",
+    "description": "Open to everyone. What is actually going on underneath hair loss, what to ask your doctor to test, and honest write-ups of the options that are not us.",
+    "path": "/learn/"
+  },
+  "sections": [
+    {
+      "type": "page_hero",
+      "eyebrow": "Learn",
+      "heading": "The information you have been looking for.",
+      "lead": "Open to everyone, whether you ever buy anything from us or not. This is the part of Saede that exists for the mission rather than the margin.",
+      "mood": "veil"
+    },
+    {
+      "type": "prose",
+      "paragraphs": [
+        "Our founder spent more than four years piecing this together herself, late at night, from research papers, because nobody would explain it to her. Putting it behind a paywall would make us exactly the thing we are annoyed about.",
+        "So the education is free. That includes the parts where the right answer is not a supplement — including minoxidil, which is a medicine, and which we write about because you deserve to understand your options rather than only the one we sell."
+      ],
+      "statement": "If what you actually need is a doctor, we would rather you found that out here.",
+      "mood": "silk"
+    },
+    {
+      "type": "learn_index",
+      "mood": "shore"
+    },
+    {
+      "type": "cta",
+      "heading": "Get your bloods done.",
+      "paragraphs": [
+        "If you take one thing from this hub, take that one. Ask for ferritin, thyroid function and vitamin D specifically."
+      ],
+      "ctas": [
+        {
+          "label": "What to ask your doctor",
+          "href": "/learn/what-to-ask-your-doctor/",
+          "style": "primary"
+        }
+      ],
+      "mood": "glow"
+    },
+    {
+      "type": "disclaimer"
+    }
+  ]
+}

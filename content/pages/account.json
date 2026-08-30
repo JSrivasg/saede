@@ -1,0 +1,134 @@
+{
+  "_readme": [
+    "The account area. Written on the principle that leaving should be as easy",
+    "as joining — the cancel card is as prominent as every other action, not",
+    "buried at the bottom.",
+    "",
+    "PLACEHOLDER: there is no login system yet. Every button here points at",
+    "/contact/ until an account platform is chosen. See OPEN-DECISIONS.md."
+  ],
+
+  "meta": {
+    "title": "Your account — Saede",
+    "description": "Manage your Saede membership. Pause, reschedule or cancel in two clicks, from your account, without contacting anyone.",
+    "path": "/account/"
+  },
+
+  "sections": [
+    {
+      "type": "page_hero",
+      "mood": "veil",
+      "eyebrow": "Your account",
+      "heading": "Everything you need, including the door out.",
+      "lead": "Pause it, move it, change it or cancel it. From your account, in a couple of clicks, without speaking to anyone."
+    },
+
+    {
+      "type": "prose",
+      "mood": "silk",
+      "heading": "Why this page exists at all",
+      "paragraphs": [
+        "Most subscription brands make cancelling deliberately awkward. A buried link. A form. A phone call during office hours. Three screens of offers before the button appears.",
+        "It works, commercially. It is also a quiet admission that the product cannot hold people on its own — and it is the sort of thing that makes women who are already exhausted feel trapped by something they bought to help themselves.",
+        "So we built the account around leaving. If Saede is not working for you, or the timing is wrong, or money is tight this month, you should be able to stop in a few seconds and think no more about it."
+      ],
+      "statement": "A brand that has to trap you is telling you something about its product."
+    },
+
+    {
+      "type": "account",
+      "mood": "veil",
+      "tint": true,
+      "eyebrow": "Manage",
+      "heading": "What you can do, and how long it takes.",
+      "cards": [
+        {
+          "title": "Cancel your membership",
+          "cancel": true,
+          "paragraphs": [
+            "Available any time after your first three deliveries. Two clicks, done immediately, no questions and no offers in the way."
+          ],
+          "steps": [
+            "Open your account and go to Membership.",
+            "Choose Cancel membership.",
+            "Confirm. That is the whole flow — we will email you to say it is done."
+          ],
+          "cta": { "label": "Go to my membership", "href": "/contact/", "style": "primary" }
+        },
+        {
+          "title": "Pause or skip a delivery",
+          "paragraphs": [
+            "Going away, still have last month's, or just need a breather from the spend. Skip one delivery or pause for up to three months, and everything picks back up where it left off.",
+            "Pausing is usually the better option if you are only having a difficult month — you keep your price, and you do not lose the progress of an unbroken course."
+          ],
+          "cta": { "label": "Pause or skip", "href": "/contact/", "style": "ghost" }
+        },
+        {
+          "title": "Change your delivery date",
+          "paragraphs": [
+            "Move your next delivery earlier or later so it lands when you actually run out. The 28-day cycle then follows the new date."
+          ],
+          "cta": { "label": "Change the date", "href": "/contact/", "style": "ghost" }
+        },
+        {
+          "title": "Update your details",
+          "paragraphs": [
+            "Address, email, and payment method. Changing your card here does not restart your commitment or change your price."
+          ],
+          "cta": { "label": "Update details", "href": "/contact/", "style": "ghost" }
+        },
+        {
+          "title": "Your orders and invoices",
+          "paragraphs": [
+            "Every order, with a downloadable invoice, and the batch number of what you were sent — so you can look up the certificate of analysis for your own bottle, not a generic one."
+          ],
+          "cta": { "label": "View orders", "href": "/contact/", "style": "ghost" }
+        },
+        {
+          "title": "Your data",
+          "paragraphs": [
+            "Download everything we hold about you, or delete your account entirely. Both are self-service, because under the GDPR they are your right and it would be strange to make you ask us for them."
+          ],
+          "cta": { "label": "Manage my data", "href": "/privacy/", "style": "ghost" }
+        }
+      ],
+      "promise": {
+        "statement": "What we will never do to keep you.",
+        "items": [
+          "No phone call, no live chat queue, and no form to fill in before you can cancel.",
+          "No countdown offers or discount pop-ups between you and the cancel button.",
+          "No asking you to confirm three times, and no dark pattern where the cancel button is the pale one.",
+          "No quiet price rise. If your price ever changes, we email you first, with time to leave.",
+          "No re-subscribing you because you bought something else later."
+        ]
+      }
+    },
+
+    {
+      "type": "prose",
+      "mood": "shore",
+      "eyebrow": "Before you go",
+      "heading": "One thing worth knowing if you are cancelling early.",
+      "paragraphs": [
+        "We are not going to try to talk you out of it, and there is no offer waiting on the next screen. But there is one fact that belongs here rather than in a retention email.",
+        "If you are stopping around month two or three because you cannot see a change yet: that is expected, and it is the single most common reason women conclude nothing works. Hair grows on a cycle, and the first visible signs generally arrive around three months. We say this on the [how it works](/how-it-works/) page too, and we would say it even if you had already cancelled.",
+        "If you are stopping for any other reason — cost, side effects, a doctor's advice, or simply that it is not for you — then go, with our blessing, and thank you for trying."
+      ]
+    },
+
+    {
+      "type": "prose",
+      "mood": "veil",
+      "tint": true,
+      "eyebrow": "Not a member yet",
+      "heading": "Saede has not launched.",
+      "paragraphs": [
+        "There are no accounts to log into yet. This page is here so you can see exactly how the membership will work — and how easily you will be able to leave it — before you ever give us a card.",
+        "We would rather you read this page first than discover it afterwards."
+      ],
+      "cta": { "label": "Join the launch list", "href": "/#join", "style": "primary" }
+    },
+
+    { "type": "disclaimer" }
+  ]
+}

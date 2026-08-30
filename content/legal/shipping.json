@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Shipping & returns — Saede",
+    "description": "Where we ship, what it costs, and how returns work.",
+    "path": "/shipping/"
+  },
+  "sections": [
+    {
+      "type": "page_hero",
+      "eyebrow": "Shipping & returns",
+      "heading": "Getting it to you, without the customs surprise.",
+      "lead": "Saede exists partly because our founder spent years ordering supplements from another continent. Making this easy in Europe is personal.",
+      "mood": "shore"
+    },
+    {
+      "type": "legal",
+      "note": "DRAFT — NOT LEGAL TEXT. Written as a plain-language starting point so the page exists and reads in Saede's voice. It must be reviewed and completed by a qualified lawyer for the EU market before launch. Company registration country is not yet decided (leaning Spain), and several clauses depend on that.",
+      "body": [
+        "## Where we ship",
+        "Across the European Union. Because the products are made in the EU, there are no customs charges or import duties waiting for you on the doorstep.",
+        "## Cost and timing",
+        "PLACEHOLDER — delivery costs and estimated times per country, to be added once the fulfilment partner is confirmed. Delivery cost is always shown at checkout before you pay.",
+        "Membership delivery is free.",
+        "## Your 14-day right of withdrawal",
+        "You have 14 days from receiving your order to tell us you are withdrawing from the contract, without giving a reason. Email **hello@saede.eu** and we will tell you what to do next.",
+        "**One honest limitation:** for hygiene and safety reasons, sealed food supplements that have been opened cannot be returned for resale. Unopened products in their original packaging can be. This is a standard exception under EU consumer law and we would rather explain it here than have you discover it at the worst moment.",
+        "## If something arrives damaged or wrong",
+        "Email us with a photograph and we will replace it. We are not going to make you argue for that.",
+        "## PLACEHOLDER — to be completed by a lawyer",
+        "The formal withdrawal form, return address, who bears return postage, refund timing, and the exact statutory wording for the hygiene exception."
+      ],
+      "mood": "veil"
+    },
+    {
+      "type": "disclaimer"
+    }
+  ]
+}

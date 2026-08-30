@@ -1,0 +1,35 @@
+{
+  "_readme": [
+    "Descriptions for the two products. The NAMES live in site.json — change them",
+    "there, not here, and every page follows. {{partner}} works in this file too.",
+    "'contains' only appears on the detailed cards (the /the-duo/ page)."
+  ],
+  "hero": {
+    "desc": [
+      "The daily capsule, and the main character. Hero goes after the root causes rather than the symptom — the androgen activity, the stress load, and the micronutrients your hair is actually built from.",
+      "This is the part of the routine our founder found first, and the reason her hair loss slowed the first time."
+    ],
+    "contains": [
+      "Saw palmetto, standardised extract",
+      "Pumpkin seed",
+      "Iron, in a well-absorbed form",
+      "Zinc",
+      "Biotin",
+      "One capsule daily, with food"
+    ],
+    "cta": { "label": "See the research", "href": "/ingredients/", "style": "ghost" }
+  },
+  "partner": {
+    "desc": [
+      "The powder beside Hero, and the half most brands leave out because it is expensive and it does not fit in a capsule. {{partner}} carries the ingredients that have to be measured in grams: marine collagen for the scalp and the building blocks, and the inositols for the metabolic and hormonal side of this.",
+      "It is the part our founder added second — and the point at which the hair loss stopped rather than slowed."
+    ],
+    "contains": [
+      "Marine collagen peptides",
+      "Myo-inositol and D-chiro-inositol, in the researched ratio",
+      "Horsetail extract",
+      "One scoop daily, in water or whatever you already drink"
+    ],
+    "cta": { "label": "See the research", "href": "/ingredients/", "style": "ghost" }
+  }
+}

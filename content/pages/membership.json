@@ -1,0 +1,190 @@
+{
+  "_readme": [
+    "PRICES: €100/month for the duo comes from the cost document. The starter",
+    "and single-month figures still need setting — they carry PRICE TBD markers.",
+    "",
+    "EU consumer law note: the commitment length, the total price and how to",
+    "cancel must be stated clearly BEFORE the customer pays. The eu_terms block",
+    "renders that disclosure here; it must also appear at checkout.",
+    "Have this reviewed by a lawyer before launch — see COPY-REVIEW.md.",
+    "",
+    "MEMBER CONTENT WORDING: describe it as a fuller, more detailed briefing.",
+    "Do NOT describe it as personalised — we are not promising individual",
+    "assessment, and it would be a claim we cannot stand behind."
+  ],
+  "meta": {
+    "title": "Membership — Saede",
+    "description": "Saede is not a bottle you buy once. It is a system you commit to, delivered every 28 days, with the full briefing and the community. Cancel in two clicks.",
+    "path": "/membership/"
+  },
+  "sections": [
+    {
+      "type": "page_hero",
+      "mood": "glow",
+      "eyebrow": "Membership",
+      "heading": "Not a bottle you buy once. A system you join.",
+      "lead": "Delivered every 28 days, at the best price, with the full briefing and the community that make it actually work."
+    },
+    {
+      "type": "plans",
+      "mood": "silk",
+      "plans": [
+        {
+          "name": "Membership",
+          "badge": "Best value",
+          "featured": true,
+          "price": "99",
+          "price_unit": "€",
+          "price_sub": "per month",
+          "sub": "{{hero}} + {{partner}}, every 28 days. Minimum three deliveries, then cancel any time in two clicks.",
+          "features": [
+            "Both products, delivered every 28 days",
+            "All twenty ingredients at the published doses",
+            "The best price we offer",
+            "The full briefing — the long-form guide to getting the most out of it",
+            "The member community",
+            "Pause, reschedule or cancel from your account after the first three deliveries",
+            "Free delivery across the EU"
+          ],
+          "cta": {
+            "label": "Start your Saede",
+            "href": "/contact/",
+            "style": "primary",
+            "buy": true
+          }
+        },
+        {
+          "name": "3-month starter",
+          "badge": null,
+          "featured": false,
+          "price": "00",
+          "price_unit": "€",
+          "price_sub": "one payment",
+          "sub": "The full three-month course, paid once. No automatic renewal, nothing to cancel.",
+          "features": [
+            "Three months of {{hero_short}} + {{partner_short}}",
+            "Shipped in one delivery",
+            "No recurring payment set up at all",
+            "For anyone who would rather not hand over a card on repeat",
+            "Free delivery across the EU"
+          ],
+          "cta": {
+            "label": "Buy the starter course",
+            "href": "/contact/",
+            "style": "ghost",
+            "buy": true
+          }
+        },
+        {
+          "name": "Single month",
+          "badge": null,
+          "featured": false,
+          "quiet": true,
+          "price": "00",
+          "price_unit": "€",
+          "price_sub": "one month",
+          "sub": "Full price, and honestly not the way to start. It exists for members who need a top-up before a trip.",
+          "features": [
+            "One month of {{hero_short}} + {{partner_short}}",
+            "No commitment, no discount",
+            "One month on its own is very unlikely to change anything — please read the timeline first"
+          ],
+          "cta": {
+            "label": "See the timeline first",
+            "href": "/how-it-works/",
+            "style": "ghost"
+          }
+        }
+      ],
+      "eu_terms": {
+        "title": "What you are agreeing to, in plain words",
+        "items": [
+          "The membership renews every 28 days at the price shown above until you cancel it.",
+          "It runs for a minimum of three deliveries. That is the shortest course that can honestly do anything, and it is why we ask for it.",
+          "After those three deliveries you can pause, reschedule or cancel at any time, from your account, in two clicks — no phone call and no form. See [your account](/account/).",
+          "You have the statutory 14-day right of withdrawal on your first order under EU consumer law, in addition to the above.",
+          "We will email you before every renewal, with enough notice to skip it.",
+          "The commitment, the price and the cancellation terms are shown again at checkout before you pay."
+        ]
+      }
+    },
+    {
+      "type": "prose",
+      "mood": "shore",
+      "tint": true,
+      "eyebrow": "Why a commitment at all",
+      "heading": "Because the alternative is taking your money for something we know is too short.",
+      "paragraphs": [
+        "We could sell single bottles. It would be easier, and plenty of people would buy one, try it for five weeks, decide it did nothing and move on. That is a good month for a supplement company and a bad outcome for a woman losing her hair.",
+        "The three-month minimum is us refusing to build a business on that. It is also, we know, a bigger ask than clicking 'add to basket' — which is why the starter bundle exists for anyone who wants the full course without a recurring payment, why the timeline page is written to talk you out of expecting miracles, and why [cancelling takes two clicks](/account/)."
+      ],
+      "statement": "We would rather be the brand that asked for more and then told you the truth about how long it takes."
+    },
+    {
+      "type": "member_gate",
+      "mood": "nacre",
+      "eyebrow": "Inside membership",
+      "heading": "The long version, for the people actually doing this.",
+      "paragraphs": [
+        "The Learn hub is open to everyone and always will be. It covers what is going on underneath, what to ask your doctor to test, and the honest write-ups of the options that are not us.",
+        "The member library is the same subject matter taken considerably further. Not a different opinion — a much longer, more detailed treatment of it, for someone who has decided to do this properly and wants the whole picture rather than the introduction."
+      ],
+      "gate": {
+        "title": "What the member library covers",
+        "paragraphs": [
+          "**The full briefing.** A long-form guide to getting the most out of the six months: protein, blood sugar, vitamin D and sleep, each explained properly — what the evidence actually shows, how much difference it plausibly makes, and what to do about it. Not a leaflet of tips. The version with the reasoning left in.",
+          "**Reading your own results.** A detailed walk through the blood tests that matter for hair — ferritin, thyroid, vitamin D, androgens — what the numbers mean, why 'normal' is a wide range, and how to have a more useful conversation with your doctor.",
+          "**The whole ingredient story.** For each of the twenty ingredients, the longer version: the trials in full, their limitations, what is still unknown, and why we landed on the dose we did.",
+          "**Tracking that keeps you honest.** Monthly photo prompts and a private place to keep them, so at month six you can see what actually changed instead of trying to remember.",
+          "**The community.** Other women in the middle of the same thing, at different stages of it. People who do not need it explained to them, and who will not tell you it is normal."
+        ],
+        "ctas": [
+          {
+            "label": "Join the launch list",
+            "href": "/#join",
+            "style": "primary"
+          },
+          {
+            "label": "Read the open Learn hub",
+            "href": "/learn/",
+            "style": "ghost"
+          }
+        ]
+      }
+    },
+    {
+      "type": "prose",
+      "mood": "veil",
+      "eyebrow": "Leaving",
+      "heading": "As easy as joining. We mean it literally.",
+      "paragraphs": [
+        "Two clicks in your account, any time after the first three deliveries. No phone call, no form, no retention script, no offer between you and the button.",
+        "We have written a whole page about how that works, so you can read it before you ever give us a card rather than discovering it afterwards."
+      ],
+      "cta": {
+        "label": "See how cancelling works",
+        "href": "/account/",
+        "style": "ghost"
+      }
+    },
+    {
+      "type": "cta",
+      "mood": "glow",
+      "heading": "There is always hope.",
+      "paragraphs": [
+        "Saede has not launched yet. Leave your email and we will write to you the moment it does."
+      ],
+      "ctas": [
+        {
+          "label": "Join the launch list",
+          "href": "/#join",
+          "style": "primary"
+        }
+      ],
+      "cloud": true
+    },
+    {
+      "type": "disclaimer"
+    }
+  ]
+}

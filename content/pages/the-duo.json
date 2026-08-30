@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "The Duo — Saede Hero and {{partner}}",
+    "description": "Saede Hero and Saede Support: twenty ingredients formulated around female pattern hair loss, at the amounts used in the research. Every dose published.",
+    "path": "/the-duo/"
+  },
+  "sections": [
+    {
+      "type": "page_hero",
+      "eyebrow": "The duo",
+      "heading": "Every hero needs support.",
+      "lead": "Two products, designed as one routine. Twenty ingredients between them, every amount published.",
+      "mood": "nacre"
+    },
+    {
+      "type": "showcase",
+      "mood": "glow",
+      "image": {
+        "src_900": "/assets/img/duo-cream-900.jpg",
+        "src_1400": "/assets/img/duo-cream-1400.jpg",
+        "src_2000": "/assets/img/duo-cream-2000.jpg",
+        "alt": "The Saede Hero capsule jar with its brushed gold lid, beside the Saede Support powder pouch, on a soft cream background."
+      },
+      "caption": "Saede Hero · Saede Support · made in the EU"
+    },
+    {
+      "type": "duo",
+      "detailed": true,
+      "mood": "silk"
+    },
+    {
+      "type": "plate",
+      "mood": "silk",
+      "tint": true,
+      "flip": true,
+      "eyebrow": "Why two",
+      "heading": "Because one format cannot carry all of it.",
+      "paragraphs": [
+        "The root-cause botanicals and the micronutrients belong in a capsule: a precise, stable, measured dose you swallow in seconds without tasting anything.",
+        "The collagen and the inositols do not fit in a capsule. Not because of formulation cleverness — because of arithmetic. Our collagen is 5 g and our myo-inositol is 4 g. That is nine grams from two ingredients alone."
+      ],
+      "image": {
+        "src_900": "/assets/img/duo-silk-900.jpg",
+        "src_1400": "/assets/img/duo-silk-1400.jpg",
+        "alt": "The Saede duo photographed on pale silk, light falling across the folds behind them.",
+        "w": "1400",
+        "h": "1120"
+      },
+      "items": [
+        "A capsule holds milligrams. A scoop holds grams.",
+        "To deliver 9 g in capsules you would swallow a fistful a day",
+        "So most brands quietly shrink the dose to whatever fits — and still put the ingredient on the front of the box",
+        "We would rather give you a powder and tell you why"
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "How to take it",
+      "heading": "How to take it.",
+      "paragraphs": [
+        "**{{hero}}** — one capsule a day, with food. Taking it with a meal helps absorption and is gentler on the stomach.",
+        "**{{partner}}** — one scoop a day, stirred into whatever you already have. Coffee, water, juice, a smoothie. Sonja puts hers in yogurt. It dissolves easily and is gentle to digest, so it fits into your morning rather than becoming another task.",
+        "Whenever you will actually remember is the right time. Consistency over six months beats perfect timing over three weeks, every time."
+      ],
+      "mood": "caustic"
+    },
+    {
+      "type": "cta",
+      "heading": "Both, every 28 days.",
+      "paragraphs": [
+        "The duo is designed to be taken together, which is how membership delivers it."
+      ],
+      "ctas": [
+        {
+          "label": "See membership options",
+          "href": "/membership/",
+          "style": "primary"
+        },
+        {
+          "label": "Read the ingredients",
+          "href": "/ingredients/",
+          "style": "ghost"
+        }
+      ],
+      "mood": "glow"
+    },
+    {
+      "type": "disclaimer"
+    }
+  ]
+}

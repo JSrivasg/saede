@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Saede pearl">
+  <defs>
+    <radialGradient id="nacre" cx="34%" cy="28%" r="76%">
+      <stop offset="0%"   stop-color="#FFFFFF"/>
+      <stop offset="26%"  stop-color="#F7E2CE"/>
+      <stop offset="48%"  stop-color="#F4D9D5"/>
+      <stop offset="70%"  stop-color="#E4DCEC"/>
+      <stop offset="88%"  stop-color="#D9E7DE"/>
+      <stop offset="100%" stop-color="#E9D9B0"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="55%"  stop-color="#F7E2CE" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#F7E2CE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#glow)"/>
+  <circle cx="32" cy="32" r="22" fill="url(#nacre)"/>
+  <ellipse cx="25" cy="24" rx="6" ry="4.5" fill="#FFFFFF" opacity=".85" transform="rotate(-28 25 24)"/>
+</svg>

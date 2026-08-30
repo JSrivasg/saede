@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "FAQ — Saede",
+    "description": "How long until results, why we ask for three months, is it safe, how the subscription and cancellation work, and what actually makes Saede different.",
+    "path": "/faq/"
+  },
+  "sections": [
+    {
+      "type": "page_hero",
+      "eyebrow": "Questions",
+      "heading": "The things worth asking before you buy anything.",
+      "lead": "Including the ones with answers that do not flatter us.",
+      "mood": "shore"
+    },
+    {
+      "type": "faq",
+      "featured_only": false,
+      "mood": "veil"
+    },
+    {
+      "type": "badges",
+      "eyebrow": null,
+      "heading": "Proof, not promises.",
+      "paragraphs": [
+        "Third-party tested, batch by batch, with the certificates published rather than merely mentioned."
+      ],
+      "mood": "nacre"
+    },
+    {
+      "type": "cta",
+      "heading": "Still not answered?",
+      "paragraphs": [
+        "Write to us. A person replies, and if we do not know we will say so."
+      ],
+      "ctas": [
+        {
+          "label": "Contact us",
+          "href": "/contact/",
+          "style": "primary"
+        }
+      ],
+      "mood": "glow"
+    },
+    {
+      "type": "disclaimer"
+    }
+  ]
+}

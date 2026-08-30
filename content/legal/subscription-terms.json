@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "title": "Subscription terms — Saede",
+    "description": "How the membership works, what you are committing to, and how to cancel.",
+    "path": "/subscription-terms/"
+  },
+  "sections": [
+    {
+      "type": "page_hero",
+      "eyebrow": "Subscription terms",
+      "heading": "What you are agreeing to, stated before you pay.",
+      "lead": "If any of this is a surprise to you later, we have failed at the one thing this brand is supposed to be about.",
+      "mood": "veil"
+    },
+    {
+      "type": "legal",
+      "note": "DRAFT — NOT LEGAL TEXT. Written as a plain-language starting point so the page exists and reads in Saede's voice. It must be reviewed and completed by a qualified lawyer for the EU market before launch. Company registration country is not yet decided (leaning Spain), and several clauses depend on that.",
+      "body": [
+        "## The commitment",
+        "Saede membership runs for a **minimum of three deliveries**, then continues every 28 days until you cancel.",
+        "We ask for three because one month cannot honestly do anything measurable, and we would rather ask for the full course than take your money for a bottle we know is too short to help. This is explained on the [how it works](/how-it-works/) page, and stated again at checkout before you pay.",
+        "## What you pay, and when",
+        "PLACEHOLDER — membership price per delivery, and the total payable across the three-delivery minimum. Both must be shown at checkout before payment.",
+        "You are charged on each delivery date, every 28 days. We email you before every renewal with enough notice to skip it.",
+        "## Pausing, changing and cancelling",
+        "After your first three deliveries you can pause, reschedule or cancel at any time, from your account, in a couple of clicks.",
+        "No phone call. No form. No retention script asking whether you are sure. If you want to leave, we are not going to make it difficult — a brand that has to trap people is telling you something about its product.",
+        "Cancelling stops future deliveries. It does not refund deliveries already sent.",
+        "## Your statutory rights",
+        "The 14-day right of withdrawal under EU consumer law applies to your first order and sits on top of everything above. Nothing here removes it.",
+        "## PLACEHOLDER — to be completed by a lawyer",
+        "Exact renewal notice periods, the mechanics of the minimum term against the statutory withdrawal right, price-change notification terms, and failed-payment handling. This page in particular needs professional review: minimum-term subscriptions are closely regulated in the EU and rules vary by member state."
+      ],
+      "mood": "silk"
+    },
+    {
+      "type": "disclaimer"
+    }
+  ]
+}

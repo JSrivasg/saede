@@ -1,0 +1,383 @@
+{
+  "_readme": [
+    "The homepage, section by section, in the order they appear.",
+    "To reorder the page, move a block in this list. To remove one, delete it.",
+    "",
+    "'mood' picks a texture from theme/textures.css: veil, silk, nacre, caustic,",
+    "shore or glow. They are sequenced deliberately so scrolling the page moves",
+    "through the mood board rather than repeating one effect.",
+    "",
+    "All copy is plain text; **double asterisks** make bold, [text](/link/) makes",
+    "a link, and {{partner}} / {{hero}} become the product names."
+  ],
+  "meta": {
+    "title": "Saede — for you who has tried everything",
+    "description": "Not another biotin supplement. Saede is a complete, full-dose system formulated around female pattern hair loss — the androgen and DHT pathway, cortisol and stress, and the nutrients hair is built from. Twenty ingredients, every dose published. Launching soon.",
+    "path": "/"
+  },
+  "sections": [
+    {
+      "type": "hero_image",
+      "mood": null,
+      "wordmark": "Saede",
+      "line": "For you who has tried everything.",
+      "image": {
+        "wide_1600": "/assets/img/hero-water-wide-1600.jpg",
+        "wide_2200": "/assets/img/hero-water-wide-2200.jpg",
+        "mobile_800": "/assets/img/hero-water-800.jpg",
+        "mobile_1280": "/assets/img/hero-water-1280.jpg",
+        "alt": "Low sunlight scattering across the surface of still water."
+      },
+      "ctas": [
+        {
+          "label": "Join the launch list",
+          "href": "/#join",
+          "style": "primary"
+        },
+        {
+          "label": "The duo",
+          "href": "/the-duo/",
+          "style": "ghost"
+        }
+      ],
+      "scroll_cue": {
+        "label": "Begin",
+        "href": "#opening-words"
+      },
+      "video": "/assets/video/hero-water.mp4"
+    },
+    {
+      "type": "prose",
+      "mood": "veil",
+      "anchor": "opening-words",
+      "heading": "Perhaps you have already been tested, and everything came back fine.",
+      "paragraphs": [
+        "Perhaps you have not, and you are only beginning to wonder. Either way, you know your own body, and you know that something is not as it should be.",
+        "You may have bought the serums. Read the labels. Tried the thing your friend swore by, and the thing the internet swore by. That space, between everything you have tried and everything you were promised, is a lonely one to stand in. Saede is the help that meets you there.",
+        "When you lose your hair, you can lose a little of yourself with it. We know that feeling, and we know how quietly it is usually carried."
+      ],
+      "statement": "Saede is here to help you find your way back to yourself. There is always hope — and you do not have to work it out alone.",
+      "plain": "Full-dose support for women facing hair loss, chronic stress, and the hormonal imbalance underneath it."
+    },
+    {
+      "type": "pullquote",
+      "mood": "glow",
+      "kicker": "The words nobody gave you",
+      "line": "Androgenetic alopecia. DHT.",
+      "sub": "It is the most common cause of hair loss in women, and most of us are never given the name for it.",
+      "billboard": true
+    },
+    {
+      "type": "prose",
+      "mood": "silk",
+      "eyebrow": "Female pattern hair loss",
+      "heading": "Not another biotin supplement.",
+      "paragraphs": [
+        "Most hair supplements are built around biotin and a handful of vitamins. They are made for hair that is thinning because something is missing from the diet. That is one cause — and in women, it is rarely the main one.",
+        "**Female pattern hair loss — androgenetic alopecia — works differently.** It comes down to how your follicles respond to androgens, and to **DHT** in particular: a hormone your body converts from testosterone. Follicles sensitive to it produce finer, shorter hairs with each cycle, until eventually they stop. It usually shows first at the parting and the temples, and it very often arrives alongside stress, hormonal shifts, or the years after a difficult period.",
+        "It affects an enormous number of women, and it remains strikingly under-researched compared with the same condition in men. Which is why so much of what is sold to us is a vitamin with good packaging.",
+        "Saede is formulated around those mechanisms instead: the androgen pathway, the cortisol and stress side, the hormonal and metabolic picture underneath, and the nutrients hair is actually built from — all at the amounts the research used.",
+        "We looked for a single product that did all of it for women, and we could not find one. So we are making it."
+      ],
+      "statement": "Not a general hair vitamin. A supplement made specifically for women living with female pattern hair loss. If this is what you have been searching for, you can stop looking.",
+      "plain": "Saede is a food supplement, formulated for women with androgenetic alopecia. It is support alongside proper medical care, not a replacement for it — androgenetic alopecia is a medical condition, so please see a doctor about it too."
+    },
+    {
+      "type": "teaser",
+      "mood": "silk",
+      "eyebrow": "My story",
+      "quote": "I was coming out of the shower to my mother with my arms full of hair, sobbing. Look at this. I don't know what to do. I'm so scared.",
+      "cite": "Sonja, founder of Saede",
+      "paragraphs": [
+        "Saede is not a brand that found a gap in a market. It is one woman building the thing she spent years, and a great deal of money, trying to assemble for herself — because nobody would help her do it.",
+        "Nobody ever gave her the words *androgenetic alopecia*. Without them, she could not even search. It took a stranger on TikTok, at the end of her degree, to say the one thing every doctor had left out."
+      ],
+      "cta": {
+        "label": "Read my story",
+        "href": "/my-story/",
+        "style": "primary"
+      }
+    },
+    {
+      "type": "cycle",
+      "mood": "nacre",
+      "eyebrow": "The whole picture",
+      "heading": "You are not fighting separate battles. You are fighting one system out of balance.",
+      "paragraphs": [
+        "Hair loss. Acne. Gut issues. Irregular or painful cycles. Anxiety. PCOS. Most women are told these are five separate problems with five separate answers, sent to five different specialists, and handed five things that each treat one symptom.",
+        "They are not five problems. So often they trace back to the same roots: chronic stress and cortisol, hormonal and androgen imbalance, and the nutrient gaps underneath. No one connected the dots for you. We do."
+      ],
+      "hub": {
+        "label": "The roots",
+        "items": [
+          "Chronic stress and cortisol.",
+          "Hormonal and androgen imbalance.",
+          "The nutrient gaps underneath."
+        ]
+      },
+      "nodes": [
+        {
+          "label": "Hair loss"
+        },
+        {
+          "label": "Acne"
+        },
+        {
+          "label": "Gut issues"
+        },
+        {
+          "label": "Painful or irregular cycles"
+        },
+        {
+          "label": "Anxiety"
+        },
+        {
+          "label": "PCOS",
+          "seen": true
+        }
+      ],
+      "caption": "Saede is built for the centre of this diagram, not the edges.",
+      "statements": [
+        "Your body is not the enemy. It is asking for help.",
+        "We at Saede are here to help you understand it."
+      ]
+    },
+    {
+      "type": "pillars",
+      "mood": "caustic",
+      "tint": true,
+      "eyebrow": "The difference",
+      "heading": "Everything you need.",
+      "paragraphs": [
+        "Most supplements list impressive ingredients, then use amounts too small to do very much. A long label sells well. A full dose costs more to make.",
+        "Saede is built the other way round: twenty ingredients across two products, at the amounts used in the research, so you are not left assembling the answer yourself from ten different bottles.",
+        "**Every dose is published on this site**, which is not something you can say of most of the shelf."
+      ],
+      "cards": [
+        {
+          "num": "01",
+          "title": "Our ingredients",
+          "body": "Saw palmetto at 320 mg. Pumpkin seed oil at 400 mg. Ashwagandha at 600 mg. Myo-inositol at 4 g. These are the amounts the research actually used, written into our manufacturing specification so the formula stays what we say it is."
+        },
+        {
+          "num": "02",
+          "title": "Open about everything",
+          "body": "Every ingredient, every amount, why we chose it, and the studies behind it — including where the research is still thin, and where a trial was done in men rather than women. You can check all of it."
+        },
+        {
+          "num": "03",
+          "title": "One system, not fifteen bottles",
+          "body": "A complete daily routine, so you are not researching, ordering and re-ordering from four different countries. That was the problem. This is the answer to it."
+        }
+      ]
+    },
+    {
+      "type": "plate",
+      "mood": "glow",
+      "eyebrow": "The duo",
+      "heading": "Every hero needs support.",
+      "paragraphs": [
+        "Two products, made to be taken together. **{{hero}}** is the daily capsule, the main character, working on the root causes. **{{partner}}** is the trusted partner beside it, carrying the gram doses that cannot fit in a capsule."
+      ],
+      "image": {
+        "src_900": "/assets/img/duo-silk-900.jpg",
+        "src_1400": "/assets/img/duo-silk-1400.jpg",
+        "alt": "The Saede duo: the Hero capsule jar with a brushed gold lid beside the Support powder pouch, on pale silk.",
+        "w": "1400",
+        "h": "1120"
+      },
+      "items": [
+        "**{{hero}}** — twelve ingredients, one capsule, with breakfast",
+        "**{{partner}}** — eight ingredients, one scoop, into coffee, water or yogurt",
+        "Twenty ingredients in total, every amount published",
+        "Made in the EU, tested batch by batch"
+      ],
+      "ctas": [
+        {
+          "label": "See what is in each",
+          "href": "/the-duo/",
+          "style": "primary"
+        },
+        {
+          "label": "Read every dose",
+          "href": "/ingredients/",
+          "style": "ghost"
+        }
+      ]
+    },
+    {
+      "type": "pullquote",
+      "mood": "nacre",
+      "kicker": "Three fronts, one system",
+      "line": "Hair loss in women is rarely one problem. So Saede does not work on one thing.",
+      "sub": "The same formula works on all three at once, because in the body they were never separate to begin with.",
+      "fronts": [
+        {
+          "title": "The androgen pathway",
+          "body": "Saw palmetto, pumpkin seed oil and nettle root, at the amounts used in the research — chosen for the DHT side of female pattern hair loss, which is where most hair supplements never go."
+        },
+        {
+          "title": "Stress and cortisol",
+          "body": "Ashwagandha at 600 mg, the amount used in the research on cortisol. Stress is one of the three roots, and it is the one almost every hair supplement ignores entirely."
+        },
+        {
+          "title": "The hormonal and metabolic picture",
+          "body": "Myo-inositol and D-chiro-inositol at 4 g in the 40:1 ratio: the most-researched nutritional ingredient in women with PCOS, studied for insulin sensitivity and blood sugar as well as hormonal balance."
+        }
+      ]
+    },
+    {
+      "type": "ingredients_preview",
+      "mood": "veil",
+      "tint": true,
+      "eyebrow": "Ingredients & science",
+      "heading": "Twenty ingredients. Every dose published.",
+      "paragraphs": [
+        "No proprietary blends. No hiding behind the word 'complex'. For each ingredient we tell you the exact amount, why it is in there in plain language, and then we link you to the actual research so you can check us.",
+        "Including the four cards where the honest answer is that the evidence is thinner than we would like. Those notes cost us sales. We are keeping them."
+      ],
+      "cta": {
+        "label": "Read every ingredient and dose",
+        "href": "/ingredients/",
+        "style": "ghost"
+      }
+    },
+    {
+      "type": "showcase",
+      "mood": "shore",
+      "tint": true,
+      "eyebrow": "Made in the EU",
+      "heading": "One system, in two pieces.",
+      "paragraphs": [
+        "Everything below is what it costs to assemble this yourself, one bottle at a time."
+      ],
+      "image": {
+        "src_900": "/assets/img/duo-cream-900.jpg",
+        "src_1400": "/assets/img/duo-cream-1400.jpg",
+        "src_2000": "/assets/img/duo-cream-2000.jpg",
+        "alt": "The Saede Hero capsule jar and Support powder pouch side by side on a soft cream background."
+      },
+      "caption": "Saede Hero · Saede Support"
+    },
+    {
+      "type": "comparison",
+      "mood": "nacre",
+      "eyebrow": "The honest maths",
+      "heading": "What it would cost you to build this yourself.",
+      "paragraphs": [
+        "Not the theoretical cheapest price, found across four websites over a month. What it actually costs to put nineteen products in a basket, pay shipping on them, and have them arrive."
+      ]
+    },
+    {
+      "type": "timeline",
+      "mood": "caustic",
+      "tint": true,
+      "eyebrow": "How it works",
+      "heading": "Real results take time.",
+      "paragraphs": [
+        "Hair grows on its own schedule, and the women who see a change are the ones who stay with it. Here is what that usually looks like."
+      ],
+      "steps": [
+        {
+          "when": "Months 1 – 3",
+          "title": "The quiet work",
+          "body": "Your body starts filling in what it has been short of. The first thing most women notice is less hair in the brush and in the shower — a small change, but a real one, and usually the earliest sign that something is shifting."
+        },
+        {
+          "when": "Months 3 – 6",
+          "title": "You start to see it",
+          "body": "Around three months is when the first change usually shows: fine new hairs coming through along the parting and the hairline. They are soft and easy to miss at first — which is why it is worth taking a photo at the start, so you have something honest to compare against."
+        },
+        {
+          "when": "Month 6 and beyond",
+          "title": "Fuller, and worth keeping",
+          "body": "By six months there is usually something you can genuinely see, and something other people notice too. Staying with it is what protects it — the roots we are working on do not disappear, so neither does the support."
+        }
+      ],
+      "honesty": {
+        "statement": "This is why Saede is built as a system rather than a single bottle.",
+        "body": "Give it the full course. That is when it works, and it is the most useful thing we can tell you."
+      }
+    },
+    {
+      "type": "membership_preview",
+      "mood": "silk",
+      "eyebrow": "Membership",
+      "heading": "Not a bottle you buy once. A system you join.",
+      "paragraphs": [
+        "Delivered to your door every 28 days, at the best price, with the deeper guidance and the community that make it actually work.",
+        "And an account built so you can leave in two clicks. No phone call, no retention script, no hidden button — we would rather you could go easily than have to trap you."
+      ],
+      "cta": {
+        "label": "See how membership works",
+        "href": "/membership/",
+        "style": "primary"
+      }
+    },
+    {
+      "type": "learn_preview",
+      "mood": "veil",
+      "tint": true,
+      "eyebrow": "Learn",
+      "heading": "The information you have been looking for.",
+      "paragraphs": [
+        "Open to everyone, member or not. What is actually going on underneath, what to ask your doctor to test, and honest write-ups of the options that are not us — including the medical ones."
+      ],
+      "cta": {
+        "label": "Go to the Learn hub",
+        "href": "/learn/",
+        "style": "ghost"
+      }
+    },
+    {
+      "type": "signup",
+      "mood": "glow"
+    },
+    {
+      "type": "faq",
+      "mood": "shore",
+      "tint": true,
+      "eyebrow": "Questions",
+      "heading": "The things worth asking before you buy anything.",
+      "featured_only": true,
+      "cta": {
+        "label": "All questions",
+        "href": "/faq/",
+        "style": "ghost"
+      }
+    },
+    {
+      "type": "badges",
+      "mood": "veil",
+      "eyebrow": null,
+      "heading": "Proof, not promises.",
+      "paragraphs": [
+        "Third-party tested, batch by batch, with the certificates published rather than merely mentioned."
+      ]
+    },
+    {
+      "type": "cta",
+      "mood": "nacre",
+      "heading": "There is always hope.",
+      "paragraphs": [
+        "If you have spent years being told nothing is wrong, and you are tired of being the only one who believes you — start here."
+      ],
+      "ctas": [
+        {
+          "label": "Join the launch list",
+          "href": "/#join",
+          "style": "primary"
+        },
+        {
+          "label": "Read the ingredients first",
+          "href": "/ingredients/",
+          "style": "ghost"
+        }
+      ],
+      "cloud": true
+    },
+    {
+      "type": "disclaimer"
+    }
+  ]
+}

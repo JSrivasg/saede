@@ -1,0 +1,75 @@
+{
+  "_readme": [
+    "The first concern area. This page is the template for PCOS, Gut and Metabolic.",
+    "To add a concern later: copy this file, change the meta.path, and add the entry",
+    "to the Concerns dropdown in site.json. No rebuild of anything else is needed."
+  ],
+  "meta": {
+    "title": "Hair — Saede",
+    "description": "Female pattern hair loss, explained — androgenetic alopecia, DHT, and what Saede is formulated around. Our first system.",
+    "path": "/concerns/hair/"
+  },
+  "sections": [
+    {
+      "type": "page_hero",
+      "eyebrow": "Concerns · Hair",
+      "heading": "Female pattern hair loss, taken seriously.",
+      "lead": "Androgenetic alopecia is the most common cause of thinning hair in women, and one of the least researched. This is what we built Saede for.",
+      "mood": "nacre"
+    },
+    {
+      "type": "prose",
+      "heading": "Why hair first",
+      "paragraphs": [
+        "Because it is where our founder's own story started — and because female pattern hair loss sits in a strange gap. It is extremely common, it changes how a woman sees herself, and it is studied far less in women than the same condition is in men.",
+        "**Androgenetic alopecia** is driven by how your follicles respond to androgens, and to **DHT** in particular. Sensitive follicles produce finer, shorter hairs with each cycle until they stop altogether, usually showing first at the parting and the temples. It is not cosmetic, and it is not vanity.",
+        "It also rarely arrives alone. Stress and cortisol, hormonal and metabolic shifts, and the nutrient gaps underneath all move together — which is why we built one system for all of it rather than a vitamin for the symptom."
+      ],
+      "statement": "The roots we work on are not hair problems. They are body problems that show up in the hair first.",
+      "mood": "veil"
+    },
+    {
+      "type": "duo",
+      "mood": "silk"
+    },
+    {
+      "type": "prose",
+      "tint": true,
+      "eyebrow": "What is coming",
+      "heading": "PCOS, gut, metabolic health.",
+      "paragraphs": [
+        "The same roots, approached from different directions. We are working on them properly, which means slowly, and we would rather say nothing than announce a date we cannot keep.",
+        "If you want to know when something new arrives, the Learn hub is where we will say so first."
+      ],
+      "cta": {
+        "label": "Go to the Learn hub",
+        "href": "/learn/",
+        "style": "ghost"
+      },
+      "mood": "shore"
+    },
+    {
+      "type": "cta",
+      "heading": "Start with hair.",
+      "paragraphs": [
+        "Full doses, published research, and an honest word about how long it takes."
+      ],
+      "ctas": [
+        {
+          "label": "Explore the duo",
+          "href": "/the-duo/",
+          "style": "primary"
+        },
+        {
+          "label": "See membership",
+          "href": "/membership/",
+          "style": "ghost"
+        }
+      ],
+      "mood": "glow"
+    },
+    {
+      "type": "disclaimer"
+    }
+  ]
+}

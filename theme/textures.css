@@ -1,0 +1,373 @@
+/* ==========================================================================
+   SAEDE — TEXTURES
+   The mood board, translated into layered CSS. No image files, nothing to
+   download: every texture is gradients and one inline SVG noise filter, so
+   they cost almost nothing and can never load at the wrong moment.
+
+   Each major section carries a data-mood. Scrolling the page moves through
+   the mood board in sequence — veil, silk, nacre, caustic, shore, glow —
+   so the site feels like one continuous surface catching light rather than
+   a stack of separate blocks.
+
+   All of them are decorative, sit behind the content, and never take input.
+   ========================================================================== */
+
+/* The texture sits behind, the content sits in front. */
+.section[data-mood],
+.page-hero[data-mood],
+.cta-band[data-mood] { position: relative; overflow: hidden; }
+
+.section[data-mood] > .wrap,
+.section[data-mood] > .narrow,
+.page-hero[data-mood] > .wrap,
+.cta-band[data-mood] > .wrap { position: relative; z-index: 2; }
+
+[data-mood]::before,
+[data-mood]::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* --------------------------------------------------------------------------
+   VEIL — sheer organza held up to the light. The softest of the set.
+   Used where the copy is doing the emotional work and must not compete.
+   -------------------------------------------------------------------------- */
+[data-mood="veil"]::before {
+  background:
+    radial-gradient(120% 70% at 12% -10%, rgba(246,218,211,.55) 0%, rgba(246,218,211,0) 60%),
+    radial-gradient(90% 60% at 92% 6%,    rgba(251,232,224,.65) 0%, rgba(251,232,224,0) 62%),
+    radial-gradient(110% 80% at 70% 108%, rgba(246,220,194,.42) 0%, rgba(246,220,194,0) 62%);
+  filter: blur(6px);
+}
+/* the faint vertical drape of hanging fabric */
+[data-mood="veil"]::after {
+  background: repeating-linear-gradient(
+    92deg,
+    rgba(255,255,255,0) 0px,
+    rgba(255,255,255,.42) 38px,
+    rgba(255,255,255,0) 96px,
+    rgba(240,201,196,.10) 150px,
+    rgba(255,255,255,0) 210px
+  );
+  opacity: .5;
+  mix-blend-mode: soft-light;
+}
+
+/* --------------------------------------------------------------------------
+   SILK — the folds of draped fabric, light gathering along each ridge.
+   -------------------------------------------------------------------------- */
+[data-mood="silk"]::before {
+  background:
+    repeating-linear-gradient(
+      104deg,
+      rgba(255,255,255,.00) 0px,
+      rgba(255,255,255,.55) 52px,
+      rgba(246,218,211,.30) 104px,
+      rgba(240,201,196,.20) 150px,
+      rgba(255,255,255,.00) 220px
+    ),
+    radial-gradient(120% 90% at 84% 0%, rgba(246,220,194,.55) 0%, rgba(246,220,194,0) 62%);
+  filter: blur(10px);
+  opacity: .85;
+}
+/* a second, slower fold running the other way, so it never looks like stripes */
+[data-mood="silk"]::after {
+  background: repeating-linear-gradient(
+    76deg,
+    rgba(255,255,255,0) 0px,
+    rgba(255,255,255,.30) 120px,
+    rgba(228,220,236,.16) 230px,
+    rgba(255,255,255,0) 360px
+  );
+  filter: blur(16px);
+  opacity: .6;
+}
+
+/* --------------------------------------------------------------------------
+   NACRE — the inside of a shell. Iridescence that shifts as bands cross.
+   The strongest texture, kept for the moments that carry the brand.
+   -------------------------------------------------------------------------- */
+[data-mood="nacre"]::before {
+  background:
+    conic-gradient(from 210deg at 30% 20%,
+      rgba(246,218,211,.60) 0deg,
+      rgba(246,220,194,.44) 68deg,
+      rgba(217,231,222,.36) 140deg,
+      rgba(228,220,236,.52) 214deg,
+      rgba(240,201,196,.56) 292deg,
+      rgba(246,218,211,.60) 360deg),
+    radial-gradient(90% 70% at 78% 88%, rgba(255,255,255,.72) 0%, rgba(255,255,255,0) 64%);
+  filter: blur(28px);
+  opacity: .72;
+}
+/* the fine growth lines that run across mother-of-pearl */
+[data-mood="nacre"]::after {
+  background: repeating-radial-gradient(
+    circle at 24% 12%,
+    rgba(255,255,255,0) 0px,
+    rgba(255,255,255,.34) 22px,
+    rgba(240,201,196,.14) 44px,
+    rgba(255,255,255,0) 74px
+  );
+  filter: blur(3px);
+  opacity: .40;
+  mix-blend-mode: soft-light;
+}
+
+/* --------------------------------------------------------------------------
+   CAUSTIC — sunlight rippling through shallow water onto pale sand.
+   -------------------------------------------------------------------------- */
+[data-mood="caustic"]::before {
+  background:
+    repeating-linear-gradient(
+      68deg,
+      rgba(255,255,255,0) 0px,
+      rgba(255,255,255,.60) 26px,
+      rgba(255,255,255,0) 62px
+    ),
+    repeating-linear-gradient(
+      -54deg,
+      rgba(255,255,255,0) 0px,
+      rgba(255,255,255,.46) 34px,
+      rgba(246,220,194,.20) 60px,
+      rgba(255,255,255,0) 104px
+    );
+  filter: blur(11px);
+  opacity: .5;
+  mix-blend-mode: soft-light;
+}
+[data-mood="caustic"]::after {
+  background:
+    radial-gradient(70% 50% at 22% 24%, rgba(246,220,194,.45) 0%, rgba(246,220,194,0) 62%),
+    radial-gradient(60% 46% at 84% 74%, rgba(246,218,211,.42) 0%, rgba(246,218,211,0) 64%);
+  filter: blur(24px);
+}
+
+/* --------------------------------------------------------------------------
+   SHORE — the last reach of a wave over wet sand. Long, calm, horizontal.
+   -------------------------------------------------------------------------- */
+[data-mood="shore"]::before {
+  background:
+    linear-gradient(178deg,
+      rgba(251,232,224,.80) 0%,
+      rgba(246,218,211,.34) 26%,
+      rgba(255,255,255,.62) 46%,
+      rgba(246,220,194,.30) 68%,
+      rgba(255,255,255,.00) 100%),
+    repeating-linear-gradient(
+      182deg,
+      rgba(255,255,255,0) 0px,
+      rgba(255,255,255,.34) 14px,
+      rgba(255,255,255,0) 40px
+    );
+  filter: blur(9px);
+  opacity: .8;
+}
+
+/* --------------------------------------------------------------------------
+   GLOW — the ray of light. Warm light breaking through from one corner.
+   Reserved for the brand's hopeful moments.
+   -------------------------------------------------------------------------- */
+[data-mood="glow"]::before {
+  background:
+    radial-gradient(60% 80% at 50% 0%,  rgba(255,255,255,.90) 0%, rgba(255,255,255,0) 62%),
+    radial-gradient(120% 90% at 14% 4%, rgba(246,220,194,.62) 0%, rgba(246,220,194,0) 58%),
+    radial-gradient(110% 90% at 88% 8%, rgba(240,201,196,.58) 0%, rgba(240,201,196,0) 60%);
+  filter: blur(14px);
+}
+/* the rays themselves, fanning down from above */
+[data-mood="glow"]::after {
+  background: repeating-conic-gradient(
+    from 186deg at 50% -18%,
+    rgba(255,255,255,0)   0deg,
+    rgba(255,255,255,.50) 2.2deg,
+    rgba(255,255,255,0)   5.4deg
+  );
+  filter: blur(7px);
+  opacity: .48;
+  mix-blend-mode: soft-light;
+}
+
+/* --------------------------------------------------------------------------
+   Shared refinements
+   -------------------------------------------------------------------------- */
+
+/* Fade every texture out at its edges so sections melt into one another
+   instead of butting up against a visible seam. */
+[data-mood]::before,
+[data-mood]::after {
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 22%, #000 78%, transparent 100%);
+          mask-image: linear-gradient(180deg, transparent 0%, #000 22%, #000 78%, transparent 100%);
+}
+/* except the hero and the bands, which should reach their own edges */
+.hero[data-mood]::before,  .hero[data-mood]::after,
+.cta-band[data-mood]::before, .cta-band[data-mood]::after,
+.page-hero[data-mood]::before, .page-hero[data-mood]::after {
+  -webkit-mask-image: none; mask-image: none;
+}
+
+/* Keep the whole set powdery rather than glossy. Without this the gradients
+   read as digital; the grain is what makes them feel like pigment. */
+[data-mood]::after { background-blend-mode: soft-light; }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-mood]::before, [data-mood]::after { animation: none !important; }
+}
+
+/* On small screens the heaviest blurs cost more than they give back. */
+@media (max-width: 640px) {
+  [data-mood="nacre"]::before { filter: blur(20px); }
+  [data-mood="silk"]::before  { filter: blur(8px); }
+  [data-mood="caustic"]::before { filter: blur(8px); }
+  [data-mood="veil"]::after,
+  [data-mood="nacre"]::after { opacity: .28; }
+}
+
+/* ==========================================================================
+   MOOD-BOARD REFINEMENTS
+   The board is mostly three things: pearl, halo, and light on water. These
+   are those three, applied as reusable finishes rather than as more
+   background noise.
+   ========================================================================== */
+
+/* --- 1. One continuous ground -------------------------------------------
+   Sections used to paint their own background colours, which meant every
+   boundary drew a visible line down the page — the PowerPoint effect.
+
+   Now nothing paints a block. A single tall gradient runs behind the whole
+   document and the sections are transparent, so the colour drifts from warm
+   to cool and back with no edges anywhere. The mood textures still give each
+   section its own character; they just float on the same continuous ground.
+   -------------------------------------------------------------------------- */
+main {
+  background:
+    linear-gradient(180deg,
+      #FDF8F4   0%,
+      #FBF4EF   9%,
+      #FCF7F3  18%,
+      #F9F2EC  27%,
+      #FCF8F5  36%,
+      #FAF3EE  46%,
+      #FDF9F6  56%,
+      #FAF2EB  66%,
+      #FCF7F2  76%,
+      #F9F1EA  86%,
+      #FCF8F4 100%);
+}
+
+/* The tint class stays in the content files so nothing has to be rewritten,
+   but it no longer paints a block — it only deepens the texture slightly. */
+.section--tint { background: none; }
+.section--tint::after { content: none; }
+.section[data-mood]::before { opacity: inherit; }
+.section--tint[data-mood="veil"]::before,
+.section--tint[data-mood="silk"]::before,
+.section--tint[data-mood="nacre"]::before,
+.section--tint[data-mood="caustic"]::before,
+.section--tint[data-mood="shore"]::before,
+.section--tint[data-mood="glow"]::before { opacity: 1; }
+
+/* --- 2. The pearl halo ---------------------------------------------------
+   A soft bloom of light behind a block of type, the way the mood board's
+   shells and water all sit inside their own glow. Decorative only.        */
+.halo { position: relative; }
+.halo > * { position: relative; z-index: 1; }
+.halo::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 50%; top: 50%;
+  width: 150%; aspect-ratio: 1.6 / 1;
+  transform: translate(-50%, -50%);
+  background:
+    radial-gradient(closest-side, rgba(255,255,255,.95) 0%, rgba(255,255,255,.5) 46%, rgba(255,255,255,0) 74%),
+    radial-gradient(closest-side, rgba(246,218,211,.55) 20%, rgba(246,218,211,0) 72%);
+  filter: blur(30px);
+  pointer-events: none;
+}
+
+/* --- 3. Nacre rim light --------------------------------------------------
+   The iridescent edge you see where light catches the lip of a shell.
+   One hairline across the top of a card. Almost subliminal, and it is what
+   stops the cards reading as plain white boxes.                            */
+.card, .ingredient, .plan, .product, .article-card,
+.account-card, .compare, .signup, .tl-step, .member-gate {
+  position: relative;
+}
+.card::before, .ingredient::before, .plan::before, .product::before,
+.article-card::before, .account-card::before, .compare::before,
+.signup::before, .member-gate::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 8%; right: 8%;
+  height: 1px;
+  border-radius: 1px;
+  background: linear-gradient(90deg,
+    rgba(255,255,255,0) 0%,
+    rgba(246,218,211,.9) 18%,
+    rgba(255,255,255,1) 38%,
+    rgba(233,217,176,.85) 58%,
+    rgba(217,231,222,.8) 78%,
+    rgba(255,255,255,0) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* --- 4. Glints -----------------------------------------------------------
+   The scatter of light on water, as a finish for the full-width bands.
+   Static, tiny, and low-opacity: suggestion rather than glitter.          */
+.glints {
+  position: absolute; inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  background-image:
+    radial-gradient(circle at 12% 22%, rgba(255,255,255,.95) 0, rgba(255,255,255,0) 2.4px),
+    radial-gradient(circle at 78% 16%, rgba(255,255,255,.85) 0, rgba(255,255,255,0) 3px),
+    radial-gradient(circle at 33% 78%, rgba(255,255,255,.9)  0, rgba(255,255,255,0) 2.2px),
+    radial-gradient(circle at 62% 62%, rgba(255,255,255,.8)  0, rgba(255,255,255,0) 3.4px),
+    radial-gradient(circle at 88% 74%, rgba(255,255,255,.9)  0, rgba(255,255,255,0) 2.6px),
+    radial-gradient(circle at 47% 32%, rgba(255,255,255,.75) 0, rgba(255,255,255,0) 2px),
+    radial-gradient(circle at 22% 54%, rgba(255,255,255,.8)  0, rgba(255,255,255,0) 2.8px);
+  opacity: .8;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .glints { animation: glintBreath 9s var(--ease) infinite; }
+}
+@keyframes glintBreath {
+  0%, 100% { opacity: .55; }
+  50%      { opacity: .9; }
+}
+
+/* --- 5. The shell fan ----------------------------------------------------
+   A scallop drawn from the mood board's shells, used as a section break.
+   Pure CSS: overlapping conic slices, faded at the edges.                  */
+.shell-divider {
+  position: relative;
+  height: clamp(52px, 5vw, 84px);
+  margin-inline: auto;
+  width: min(360px, 70%);
+  overflow: hidden;
+  opacity: .75;
+}
+.shell-divider::before {
+  content: "";
+  position: absolute;
+  left: 50%; bottom: 0;
+  width: 300px; height: 300px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: repeating-conic-gradient(
+    from 200deg at 50% 100%,
+    rgba(246,218,211,.55) 0deg 3deg,
+    rgba(255,255,255,0)   3deg 8deg);
+  -webkit-mask-image: radial-gradient(closest-side at 50% 100%, #000 40%, transparent 92%);
+          mask-image: radial-gradient(closest-side at 50% 100%, #000 40%, transparent 92%);
+}
+
+/* --- 6. No seams ---------------------------------------------------------
+   Every texture already fades to nothing at its own top and bottom edge (the
+   mask below), and there are no block backgrounds left to butt against each
+   other, so sections melt into one another the whole way down.            */

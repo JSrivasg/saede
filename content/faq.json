@@ -1,0 +1,105 @@
+{
+  "_readme": [
+    "Each entry becomes one expandable question on /faq/.",
+    "Answers must stay inside the wording rules: support / contributes to /",
+    "helps maintain. Never treat, cure, fix or solve. See COPY-REVIEW.md.",
+    "Set 'featured': true to also show the question on the homepage."
+  ],
+  "items": [
+    {
+      "q": "When does Saede actually launch?",
+      "featured": true,
+      "a": [
+        "We are not selling yet. The formula is with our manufacturer for technical and regulatory sign-off, and we are not going to start taking money before the testing is done and the doses are confirmed against EU limits.",
+        "We would rather be late than launch something we have to quietly water down. Leave your email on the [launch list](/#join) and we will write to you when it is ready — that is the only thing we will use it for."
+      ]
+    },
+    {
+      "q": "How long before I see anything?",
+      "featured": true,
+      "a": [
+        "Most women notice the first changes around three months, with fuller results by six. Usually the first thing to change is not new growth — it is less hair in the shower drain and on the brush.",
+        "Hair grows slowly. It is biology, not marketing, and no supplement can move faster than a hair follicle. Anyone promising you results in three weeks is selling you something."
+      ]
+    },
+    {
+      "q": "Why do you ask for three months minimum?",
+      "featured": true,
+      "a": [
+        "Because a single month does nothing measurable, and we would rather lose the sale than take your money for a bottle we know is too short to help.",
+        "Three months is the shortest honest course. It is also roughly when the hair growth cycle gives you something to actually look at. The women who stop at six weeks are the ones who conclude nothing works — and we have both been there.",
+        "If a recurring payment is the part you do not want, the three-month starter bundle is the same course paid once, with nothing to cancel."
+      ]
+    },
+    {
+      "q": "Should I get my blood tested first?",
+      "featured": true,
+      "a": [
+        "If you can, yes — and we will keep saying it even though it means some of you will discover you need something other than us.",
+        "Ask for **ferritin** specifically, not just a standard haemoglobin check: ferritin shows your iron stores, and it is the one most often left off. Worth adding: full thyroid function, vitamin D, and — if you also have acne or irregular cycles — testosterone, DHEA-S and SHBG.",
+        "Ask for the actual numbers rather than the word 'normal'. A result at the very bottom of a range and one in the middle are different situations, and only one of them gets described to you differently.",
+        "Some causes of hair loss need diagnosis and medical treatment rather than a supplement. You deserve to know which one you are dealing with. [We wrote a guide to what to ask for](/learn/what-to-ask-your-doctor/)."
+      ]
+    },
+    {
+      "q": "Is it safe?",
+      "featured": true,
+      "a": [
+        "Saede is a food supplement made in an EU facility to Good Manufacturing Practice standards, and every batch will be tested by an independent laboratory. Every dose is kept inside EU maximum permitted levels — the vitamin D, selenium and zinc all sit well under their legal ceilings, which is deliberate rather than incidental.",
+        "That said: safe in general is not the same as safe for you. If you are pregnant, trying to conceive, breastfeeding, taking any prescribed medication — particularly hormonal contraception, thyroid medication or anything affecting blood sugar — or if you have a diagnosed condition, talk to your doctor or pharmacist before you start. Bring the ingredient list with you. That is what it is published for.",
+        "The powder contains marine collagen, which is a fish allergen, so it is not suitable if you have a fish allergy and it is not vegan."
+      ]
+    },
+    {
+      "q": "Can I take it alongside other things?",
+      "featured": false,
+      "a": [
+        "Usually, but check the overlap. The most common problem is doubling up: if you are already taking a multivitamin, a separate iron supplement or a collagen powder, you may end up well over what you intended.",
+        "Please do not add extra iron on top of Saede without knowing your ferritin level — there is 14 mg in Hero, and if you are already iron-replete you do not need more. Ask your doctor for that test.",
+        "Two specific ones worth raising with a professional: the ashwagandha, if you take thyroid medication or anything sedating, and the inositol, if you take anything affecting blood sugar. If you use minoxidil or a prescribed hair-loss medication, that is a conversation for your doctor or dermatologist, not for us."
+      ]
+    },
+    {
+      "q": "How does the membership work, and how do I cancel?",
+      "featured": true,
+      "a": [
+        "Your Saede arrives every 28 days. The membership runs for a minimum of three deliveries, because that is the shortest course that can honestly do anything, and this is stated clearly at checkout before you pay.",
+        "After those first three deliveries you can pause, reschedule or cancel at any time, from your account, in two clicks. No phone call, no form, no retention script, and no offer sitting between you and the button.",
+        "We wrote a [whole page about how cancelling works](/account/) so you can read it before you ever give us a card, rather than discovering it afterwards."
+      ]
+    },
+    {
+      "q": "Where do you ship, and what does it cost?",
+      "featured": false,
+      "a": [
+        "We ship across the European Union. Delivery costs and times are shown at checkout before you pay, and on the shipping page.",
+        "Making these products easy to get hold of in Europe is personal for us. Saede exists partly because our founder spent years ordering supplements from the United States, paying customs on them, and then losing months of progress when a move made them impossible to get."
+      ]
+    },
+    {
+      "q": "What actually makes Saede different?",
+      "featured": true,
+      "a": [
+        "The amounts, and the fact that we publish them. Most things in this category list good ingredients in quantities too small to matter, because a long label sells and a full dose costs more to make. Twenty ingredients, every amount on the site.",
+        "Saw palmetto at 320 mg. Pumpkin seed oil at 400 mg. Ashwagandha at 600 mg. Myo-inositol at 4 g. Those are the amounts used in the research, and they are written into our manufacturing specification so the formula stays what we say it is.",
+        "And honesty about the parts that are less flattering. Our ingredients page says openly where the research is still thin, and where a study was done in men rather than women."
+      ]
+    },
+    {
+      "q": "Will this work for me?",
+      "featured": false,
+      "a": [
+        "We do not know, and anyone who tells you they do is guessing.",
+        "Hair loss has many causes. Some of them — a thyroid problem, iron deficiency, a medication, an autoimmune condition — need a diagnosis and medical treatment, not a supplement. That is why we will keep telling you to get your bloods done and see a doctor, even though it means some of you will find out you need something other than us. We would rather you got the right help than our help."
+      ]
+    },
+    {
+      "q": "Is Saede only for hair?",
+      "featured": false,
+      "a": [
+        "Hair is where we started, because it is where our founder's own story started, and because it is where women are most often dismissed.",
+        "But the root causes we built the formula around — stress and cortisol, hormonal and androgen balance, the nutrient gaps underneath — are not hair problems. They are body problems that show up in the hair first. That is the direction Saede is growing in."
+      ]
+    }
+  ]
+}

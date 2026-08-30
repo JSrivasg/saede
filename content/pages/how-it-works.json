@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "How it works & results — Saede",
+    "description": "Real results take time. Most women see first changes around three months, fuller results by six. Here is the honest timeline, and why we ask for the full course.",
+    "path": "/how-it-works/"
+  },
+  "sections": [
+    {
+      "type": "page_hero",
+      "eyebrow": "How it works",
+      "heading": "Real results take time.",
+      "lead": "Hair grows on its own schedule. Here is honestly what to expect, and how to get the most out of the months ahead.",
+      "mood": "caustic"
+    },
+    {
+      "type": "prose",
+      "heading": "What is actually happening underneath",
+      "paragraphs": [
+        "Hair grows on a cycle. Each follicle spends years growing, then a short while resting, then it sheds and begins again. At any moment most of your hair is growing and a small share is resting.",
+        "When something disrupts that — stress, a hormonal shift, a nutrient your body has run short of — more follicles move into the resting phase than usually would. You do not see it straight away. You see it weeks or months later, in the shower.",
+        "That delay works in both directions, and it is the reassuring part: it means change is already happening underneath well before it shows in the mirror."
+      ],
+      "mood": "veil"
+    },
+    {
+      "type": "timeline_full",
+      "mood": "shore"
+    },
+    {
+      "type": "prose",
+      "tint": true,
+      "eyebrow": "Getting the most out of it",
+      "heading": "Getting the most out of it.",
+      "paragraphs": [
+        "Saede is support. It sits on top of the basics rather than in place of them, and it will never do the work of a full, nourishing diet — nothing in a capsule can.",
+        "The things that make the biggest difference alongside it are the simple ones: **more protein**, **less sugar**, **movement you enjoy**, **regular sleep and rest**, and — the hardest of all — **slowing down a little**. Not a list to feel guilty about. Just the ground this stands on.",
+        "Members get the full briefing on all of it: the longer version, with the reasoning and the evidence gone through properly."
+      ],
+      "mood": "silk"
+    },
+    {
+      "type": "cta",
+      "heading": "Give it the full course.",
+      "paragraphs": [
+        "That is when it works. Membership is built around the three-month minimum for exactly this reason."
+      ],
+      "ctas": [
+        {
+          "label": "See membership",
+          "href": "/membership/",
+          "style": "primary"
+        },
+        {
+          "label": "Read the research first",
+          "href": "/ingredients/",
+          "style": "ghost"
+        }
+      ],
+      "mood": "glow"
+    },
+    {
+      "type": "disclaimer"
+    }
+  ]
+}

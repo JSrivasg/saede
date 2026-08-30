@@ -1,0 +1,39 @@
+{
+  "_readme": [
+    "The not-found page. Its path ends in .html so it is written to dist/404.html,",
+    "which is where Netlify, Cloudflare Pages and most static hosts look for it.",
+    "It is deliberately kept out of the sitemap."
+  ],
+  "meta": {
+    "title": "Page not found — Saede",
+    "description": "That page does not exist.",
+    "path": "/404.html"
+  },
+  "sections": [
+    {
+      "type": "page_hero",
+      "mood": "glow",
+      "eyebrow": "404",
+      "heading": "That page has gone missing.",
+      "lead": "Which is annoying, and not your fault. Here is the way back."
+    },
+    {
+      "type": "prose",
+      "mood": "veil",
+      "paragraphs": [
+        "The link you followed may be out of date, or we may have moved something. Either way, everything is still here somewhere:"
+      ],
+      "cta": { "label": "Back to the beginning", "href": "/", "style": "primary" }
+    },
+    {
+      "type": "pillars",
+      "mood": "silk",
+      "cards": [
+        { "title": "The duo", "body": "[Saede Hero and Saede Support](/the-duo/) — what they are, and why there are two of them." },
+        { "title": "Every ingredient", "body": "[All twenty](/ingredients/), every amount, and the research behind each one." },
+        { "title": "My story", "body": "[Why Saede exists](/my-story/), in Sonja's own words." }
+      ]
+    },
+    { "type": "disclaimer" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "title": "Contact — Saede",
+    "description": "Write to us. A person replies.",
+    "path": "/contact/"
+  },
+  "sections": [
+    {
+      "type": "page_hero",
+      "eyebrow": "Contact",
+      "heading": "Write to us. A person replies.",
+      "lead": "Not a ticketing system, not a chatbot. Saede is small, which is the one advantage we have here.",
+      "mood": "veil"
+    },
+    {
+      "type": "legal",
+      "note": null,
+      "body": [
+        "## Email",
+        "**hello@saede.eu** — the fastest way to reach us. We aim to reply within two working days.",
+        "## What we are genuinely happy to be asked",
+        "- Whether Saede is sensible alongside something you already take. We will tell you honestly, including when the answer is 'ask your pharmacist'.",
+        "- Anything about the ingredients, the doses or the research. If you have read a study we have not, please send it.",
+        "- Anything about your order, your membership, or cancelling it.",
+        "- If you think something on this site is wrong. Especially then. We publish our sources so they can be checked, and that only means something if we correct them when someone finds a mistake.",
+        "## What we cannot do",
+        "We cannot tell you why your hair is falling out, and we cannot interpret your blood results. We are not doctors, and anyone selling you supplements who offers to do either should worry you.",
+        "For that, please see a doctor — and if you would like help knowing what to ask for, [we wrote this](/learn/what-to-ask-your-doctor/).",
+        "## Press and partnerships",
+        "Same address. Put 'press' in the subject line.",
+        "## Company details",
+        "PLACEHOLDER — registered company name, address, registration number and VAT number to be added once the company is registered. This block is a legal requirement for an EU trading website and must be completed before launch."
+      ],
+      "mood": "silk"
+    },
+    {
+      "type": "disclaimer"
+    }
+  ]
+}

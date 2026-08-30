@@ -1,0 +1,465 @@
+{
+  "_readme": [
+    "One entry = one ingredient card on the Ingredients page.",
+    "",
+    "DOSES come from 'Saede Duo Spec v4' and are target values pending the",
+    "manufacturer's technical and regulatory sign-off against EU / AESAN limits.",
+    "",
+    "EVERY study link below was checked against the PubMed database on 2026-08-30.",
+    "Titles, authors, journals and PMIDs are real. Do not add a citation you have",
+    "not opened and read. If an ingredient has weak or indirect evidence, say so in",
+    "'honest_note' rather than dressing it up - that honesty is the brand.",
+    "",
+    "'why' must always be phrased as support / contributes to / helps maintain.",
+    "Never 'blocks', 'treats', 'cures', 'fixes' or 'solves'. See COPY-REVIEW.md.",
+    "",
+    "'defend': true marks one of the four doses the spec says must never be cut.",
+    "",
+    "'claim_status' is for your regulatory reviewer, not for the website:",
+    "'defend': true marks an amount fixed in the manufacturing spec. Internal only.",
+    "  no_authorised_claim = botanical/other with no approved EU claim; wording must",
+    "                        stay descriptive of our reasoning and the research only",
+    "",
+    "'show_dose' hides one ingredient's dose. It only displays at all if",
+    "flags.show_doses_globally is also true in site.json."
+  ],
+  "defend_note": "Four amounts carry the clinical trials and are written into the manufacturing specification. This flag is internal — it is no longer shown on the site.",
+  "groups": [
+    {
+      "id": "roots",
+      "title": "The root causes",
+      "intro": "The ingredients chosen for the mechanisms underneath hair loss in women — androgen activity and the stress axis — rather than for the hair itself. This is where most of the cost of the formula sits.",
+      "ingredients": [
+        {
+          "name": "Saw palmetto",
+          "latin": "Serenoa repens",
+          "in": "hero",
+          "dose": "320 mg, standardised to 85–95% fatty acids",
+          "show_dose": true,
+          "claim_status": "no_authorised_claim",
+          "defend": true,
+          "why": "Saw palmetto is the ingredient Sonja found in the research that no one had shown her, and it is the reason Saede exists. It has been studied for its role in androgen activity — the hormonal pathway most often involved when a woman's hair thins at the temples and the parting.",
+          "research": [
+            {
+              "citation": "Rossi A, Mari E, Scarno M, et al. Comparative effectiveness of finasteride vs Serenoa repens in male androgenetic alopecia: a two-year study. International Journal of Immunopathology and Pharmacology, 2012;25(4):1167–1173.",
+              "pmid": "23298508",
+              "note": "The two-year study our 320 mg dose is taken from. Conducted in men."
+            },
+            {
+              "citation": "Evron E, Juhasz M, Babadjouni A, Mesinkovska NA. Natural Hair Supplement: Friend or Foe? Saw Palmetto, a Systematic Review in Alopecia. Skin Appendage Disorders, 2020;6(6):329–337.",
+              "pmid": "33313047",
+              "note": "A systematic review of the saw palmetto hair-loss literature — including its limits."
+            },
+            {
+              "citation": "Ablon G. The Safety and Efficacy of a Novel Saw Palmetto (Serenoa repens) Extract for Promoting Hair Growth in Adults With Self-Perceived Thinning Hair: 180-Day Results. Journal of Cosmetic Dermatology, 2026;25(2):e70717.",
+              "pmid": "41652806",
+              "note": "A 6-month randomised, double-blind, placebo-controlled trial in men and women, with a separate analysis of menopausal women."
+            }
+          ],
+          "honest_note": "Most of the older saw palmetto research was done in men. The evidence in women is newer and thinner, and we would rather tell you that than let you assume otherwise."
+        },
+        {
+          "name": "Pumpkin seed oil",
+          "latin": "Cucurbita pepo",
+          "in": "hero",
+          "dose": "400 mg",
+          "show_dose": true,
+          "claim_status": "no_authorised_claim",
+          "defend": true,
+          "why": "A second angle on the same androgen pathway, chosen to work alongside saw palmetto. In the research these are rarely used alone — and what mattered in Sonja's own experience was the combination, not any single ingredient.",
+          "research": [
+            {
+              "citation": "Cho YH, Lee SY, Jeong DW, et al. Effect of pumpkin seed oil on hair growth in men with androgenetic alopecia: a randomized, double-blind, placebo-controlled trial. Evidence-Based Complementary and Alternative Medicine, 2014;2014:549721.",
+              "pmid": "24864154",
+              "note": "A 24-week randomised controlled trial at exactly 400 mg a day — the dose we use. Conducted in men."
+            }
+          ],
+          "honest_note": "Our 400 mg is the exact dose from this trial, which is deliberate. But the trial was in men, and it used the oil — so if you see us describe it as anything other than pumpkin seed oil, tell us, because that would be a mistake on our part."
+        },
+        {
+          "name": "Ashwagandha",
+          "latin": "Withania somnifera, KSM-66",
+          "in": "hero",
+          "dose": "600 mg",
+          "show_dose": true,
+          "claim_status": "no_authorised_claim",
+          "defend": true,
+          "why": "This one is here for the stress side of the picture rather than the hair. Chronic stress and cortisol are one of the three roots we built the formula around, and 600 mg is the amount used in the research on cortisol — not a smaller, cheaper gesture toward it.",
+          "research": [
+            {
+              "citation": "Chandrasekhar K, Kapoor J, Anishetty S. A prospective, randomized double-blind, placebo-controlled study of safety and efficacy of a high-concentration full-spectrum extract of ashwagandha root in reducing stress and anxiety in adults. Indian Journal of Psychological Medicine, 2012;34(3):255–262.",
+              "pmid": "23439798",
+              "note": "The 600 mg/day trial our dose is taken from: serum cortisol fell 27.9% against 7.9% on placebo."
+            },
+            {
+              "citation": "Salve J, Pate S, Debnath K, Langade D. Adaptogenic and Anxiolytic Effects of Ashwagandha Root Extract in Healthy Adults: A Double-blind, Randomized, Placebo-controlled Clinical Study. Cureus, 2019;11(12):e6466.",
+              "pmid": "32021735",
+              "note": "A later randomised trial on stress and anxiety outcomes in healthy adults."
+            }
+          ],
+          "honest_note": "Be clear about what this evidence is and is not. These are trials on stress and cortisol, not on hair. We include it because cortisol is one of the roots, and there is good published work showing hair follicle stem cells are held in a resting state by stress hormone — but no one has run a trial of ashwagandha with hair growth as the outcome."
+        },
+        {
+          "name": "Nettle root",
+          "latin": "Urtica dioica",
+          "in": "hero",
+          "dose": "300 mg, standardised extract",
+          "show_dose": true,
+          "claim_status": "no_authorised_claim",
+          "defend": false,
+          "why": "Included to sit alongside saw palmetto on the same pathway. It is the supporting player of the three, not the lead.",
+          "research": [
+            {
+              "citation": "Pekmezci E, Turkoğlu M. Urtica dioica extract downregulates the gene expression of 5α-RII in HaCaT cells: possible implications in androgenetic alopecia. Georgian Medical News, 2023;(334):71–75.",
+              "pmid": "36864786",
+              "note": "A laboratory study in cultured cells, not in people."
+            },
+            {
+              "citation": "Safarinejad MR. Urtica dioica for treatment of benign prostatic hyperplasia: a prospective, randomized, double-blind, placebo-controlled, crossover study. Journal of Herbal Pharmacotherapy, 2005;5(4):1–11.",
+              "pmid": "16635963",
+              "note": "A randomised human trial — but on prostate symptoms, not hair."
+            }
+          ],
+          "honest_note": "The honest position on nettle: there is no human trial of nettle root and hair. What exists is a cell-culture study suggesting an effect on the same enzyme, and human trials in an unrelated condition. Our own spec calls it 'mechanistic / adjunct', which is the right description. It is here as support for the two ingredients that do carry trials."
+        },
+        {
+          "name": "Tocotrienol complex",
+          "latin": "Full-spectrum vitamin E",
+          "in": "hero",
+          "dose": "100 mg",
+          "show_dose": true,
+          "claim_status": "efsa_authorised",
+          "defend": false,
+          "why": "Vitamin E contributes to the protection of cells from oxidative stress. We use the full-spectrum tocotrienol form because that is the form used in the one small trial that looked at hair.",
+          "research": [
+            {
+              "citation": "Beoy LA, Woei WJ, Hay YK. Effects of tocotrienol supplementation on hair growth in human volunteers. Tropical Life Sciences Research, 2010;21(2):91–99.",
+              "pmid": "24575202",
+              "note": "An 8-month study reporting a 34.5% increase in hair count. Small, and the reason we describe this ingredient carefully."
+            }
+          ],
+          "honest_note": "This is a small study with few participants, and it is the only one of its kind. We are not going to build a claim on it. The authorised EU claim above is about oxidative stress, not hair, and that is the claim we stand behind."
+        }
+      ]
+    },
+    {
+      "id": "building",
+      "title": "The building blocks",
+      "intro": "Hair is built from raw material, and it is the first thing your body stops spending that material on. These are the nutrients women are most often short of — at the amounts the EU recognises, not at token levels.",
+      "ingredients": [
+        {
+          "name": "Vitamin D3",
+          "latin": "Cholecalciferol",
+          "in": "hero",
+          "dose": "25 µg (1000 IU)",
+          "show_dose": true,
+          "claim_status": "efsa_authorised",
+          "defend": false,
+          "why": "Vitamin D contributes to the normal function of the immune system and to the maintenance of normal bones and muscle function. It is also one of the nutrients most consistently found to be low in women with hair loss, and one of the three we most want you to have tested.",
+          "research": [
+            {
+              "citation": "Yongpisarn T, Namasondhi A, Iamsumang W, Rattanakaemakorn P, Suchonwanit P. Vitamin D deficiency in non-scarring and scarring alopecias: a systematic review and meta-analysis. Frontiers in Nutrition, 2024;11:1479337.",
+              "pmid": "39416654",
+              "note": "A systematic review and meta-analysis of vitamin D status across types of hair loss."
+            },
+            {
+              "citation": "Rasheed H, Mahgoub D, Hegazy R, et al. Serum ferritin and vitamin D in female hair loss: do they play a role? Skin Pharmacology and Physiology, 2013;26(2):101–107.",
+              "pmid": "23428658",
+              "note": "Looked at ferritin and vitamin D together, in women specifically."
+            }
+          ],
+          "honest_note": "Deficiency being associated with hair loss is not the same as supplementing fixing hair loss. Please get your level tested — it is a cheap, common blood test, and knowing your number is worth more than guessing with a capsule."
+        },
+        {
+          "name": "Iron",
+          "latin": "as bisglycinate",
+          "in": "hero",
+          "dose": "14 mg",
+          "show_dose": true,
+          "claim_status": "efsa_authorised",
+          "defend": false,
+          "why": "Iron contributes to normal oxygen transport in the body and to the reduction of tiredness and fatigue. Low iron stores are one of the most common findings in women who are shedding hair. We use the bisglycinate form because it is gentler on the stomach than the cheap sulphate most supplements use.",
+          "research": [
+            {
+              "citation": "Trost LB, Bergfeld WF, Calogeras E. The diagnosis and treatment of iron deficiency and its potential relationship to hair loss. Journal of the American Academy of Dermatology, 2006;54(5):824–844.",
+              "pmid": "16635664",
+              "note": "The reference review on iron status and hair loss."
+            }
+          ],
+          "honest_note": "Please read this one. Iron is the ingredient we most want you to discuss with a doctor. Ask for a ferritin test, not just a standard haemoglobin check — ferritin is what shows your stores. Do not take additional iron on top of this without knowing your level, because too much iron is genuinely harmful, and if you are already iron-replete you do not need what is in here."
+        },
+        {
+          "name": "Zinc",
+          "latin": "as bisglycinate",
+          "in": "hero",
+          "dose": "10 mg",
+          "show_dose": true,
+          "claim_status": "efsa_authorised",
+          "defend": false,
+          "why": "Zinc contributes to the maintenance of normal hair, nails and skin, and to normal macronutrient metabolism. This is 100% of the EU reference intake — a full amount, kept well under the EU maximum.",
+          "research": [
+            {
+              "citation": "Kil MS, Kim CW, Kim SS. Analysis of serum zinc and copper concentrations in hair loss. Annals of Dermatology, 2013;25(4):405–409.",
+              "pmid": "24371385",
+              "note": "Measured zinc levels across several types of hair loss."
+            },
+            {
+              "citation": "Almohanna HM, Ahmed AA, Tsatalis JP, Tosti A. The Role of Vitamins and Minerals in Hair Loss: A Review. Dermatology and Therapy, 2019;9(1):51–70.",
+              "pmid": "30547302",
+              "note": "A review covering the whole micronutrient picture, zinc included."
+            }
+          ],
+          "honest_note": null
+        },
+        {
+          "name": "Selenium",
+          "latin": "as selenomethionine",
+          "in": "hero",
+          "dose": "55 µg",
+          "show_dose": true,
+          "claim_status": "efsa_authorised",
+          "defend": false,
+          "why": "Selenium contributes to the maintenance of normal hair and nails and to the protection of cells from oxidative stress. 100% of the EU reference intake.",
+          "research": [
+            {
+              "citation": "Almohanna HM, Ahmed AA, Tsatalis JP, Tosti A. The Role of Vitamins and Minerals in Hair Loss: A Review. Dermatology and Therapy, 2019;9(1):51–70.",
+              "pmid": "30547302",
+              "note": "Covers selenium's role, and its upper limits."
+            },
+            {
+              "citation": "Wang R, et al. Micronutrients and Androgenetic Alopecia: A Systematic Review. Molecular Nutrition & Food Research, 2024;68(21):e2400459.",
+              "pmid": "39440586",
+              "note": "A systematic review of micronutrients in pattern hair loss."
+            }
+          ],
+          "honest_note": "Selenium is one where more is actively worse — the gap between enough and too much is narrower than for most nutrients. We are at the reference intake and nowhere near the ceiling, which is the responsible place to be, not the impressive one."
+        },
+        {
+          "name": "Biotin",
+          "latin": "Vitamin B7",
+          "in": "hero",
+          "dose": "500 µg",
+          "show_dose": true,
+          "claim_status": "efsa_authorised",
+          "defend": false,
+          "why": "Biotin contributes to the maintenance of normal hair. Our amount is moderate on purpose.",
+          "research": [
+            {
+              "citation": "Patel DP, Swink SM, Castelo-Soccio L. A Review of the Use of Biotin for Hair Loss. Skin Appendage Disorders, 2017;3(3):166–169.",
+              "pmid": "28879195",
+              "note": "A review of what biotin does and does not do for hair."
+            }
+          ],
+          "honest_note": "Two honest things about the supplement industry's favourite ingredient. First, the good evidence is in people who are actually deficient — biotin alone is not why anyone's hair grows back. Second, we could legally have put 10,000 µg in here and printed a huge number on the label, and we did not: very high biotin distorts thyroid and cardiac blood tests, which is a real problem if you are also trying to get properly diagnosed. A smaller number here is the more careful choice, not the cheaper one."
+        },
+        {
+          "name": "B-complex",
+          "latin": "B6, B12, folate, niacin, pantothenic acid, thiamine",
+          "in": "hero",
+          "dose": "100% of the EU reference intake, each",
+          "show_dose": true,
+          "claim_status": "efsa_authorised",
+          "defend": false,
+          "why": "These contribute to normal energy-yielding metabolism and to the reduction of tiredness and fatigue. They are the quiet background of the formula — not a headline, but the things that have to be present for the rest to be used.",
+          "research": [
+            {
+              "citation": "Almohanna HM, Ahmed AA, Tsatalis JP, Tosti A. The Role of Vitamins and Minerals in Hair Loss: A Review. Dermatology and Therapy, 2019;9(1):51–70.",
+              "pmid": "30547302",
+              "note": "Reviews the B vitamins alongside the other micronutrients."
+            }
+          ],
+          "honest_note": null
+        },
+        {
+          "name": "Horsetail extract",
+          "latin": "Equisetum arvense",
+          "in": "hero",
+          "dose": "200 mg",
+          "show_dose": true,
+          "claim_status": "no_authorised_claim",
+          "defend": false,
+          "why": "A traditional plant source of silicon, a mineral present in the structure of hair.",
+          "research": [
+            {
+              "citation": "Wickett RR, Kossmann E, Barel A, et al. Effect of oral intake of choline-stabilized orthosilicic acid on hair tensile strength and morphology in women with fine hair. Archives of Dermatological Research, 2007;299(10):499–505.",
+              "pmid": "17960402",
+              "note": "A randomised trial in women with fine hair — testing orthosilicic acid, a different silicon source, not horsetail itself."
+            }
+          ],
+          "honest_note": "FLAGGED FOR THE FOUNDER — please read before publishing. We searched the clinical literature for horsetail and hair and found no human trial. The study linked here tested a different form of silicon. Your own spec describes this ingredient as 'traditional / structural', which is the honest description. Two options: keep horsetail and keep this caveat visible, or reconsider whether it earns its place in a formula whose whole promise is that every ingredient is there for a reason."
+        }
+      ]
+    },
+    {
+      "id": "powder",
+      "title": "The gram doses",
+      "intro": "These are the reason a powder exists at all. Collagen is dosed in grams and inositol in thousands of milligrams — you cannot fit them into a capsule without quietly shrinking them, which is exactly what most brands do.",
+      "ingredients": [
+        {
+          "name": "Hydrolyzed marine collagen",
+          "latin": "Type I & III",
+          "in": "partner",
+          "dose": "5 g",
+          "show_dose": true,
+          "claim_status": "no_authorised_claim",
+          "defend": false,
+          "why": "Collagen peptides supply the amino acids that skin and hair are built from, including the scalp the hair grows out of. Five grams is a real serving — and it is one of the two ingredients that make this product expensive to make.",
+          "research": [
+            {
+              "citation": "Ablon G. A 3-month, randomized, double-blind, placebo-controlled study evaluating the ability of an extra-strength marine protein supplement to promote hair growth and decrease shedding in women with self-perceived thinning hair. Dermatology Research and Practice, 2015;2015:841570.",
+              "pmid": "25883641",
+              "note": "A randomised, placebo-controlled trial in women with thinning hair."
+            },
+            {
+              "citation": "Kim DU, Chung HC, Choi J, et al. Oral Intake of Low-Molecular-Weight Collagen Peptide Improves Hydration, Elasticity, and Wrinkling in Human Skin: A Randomized, Double-Blind, Placebo-Controlled Study. Nutrients, 2018;10(7):826.",
+              "pmid": "29949889",
+              "note": "A randomised, placebo-controlled trial measuring skin hydration and elasticity."
+            }
+          ],
+          "honest_note": "Be careful with collagen claims, including ours. The strongest collagen evidence is for SKIN, not hair. We include it for the scalp and for the amino acids, and we are not going to tell you a study measured something it did not measure. It contains fish, so it is an allergen and the powder is not vegan."
+        },
+        {
+          "name": "Myo-inositol",
+          "latin": null,
+          "in": "partner",
+          "dose": "4 g",
+          "show_dose": true,
+          "claim_status": "no_authorised_claim",
+          "defend": true,
+          "why": "Inositol is the ingredient that connects hair to everything else — cycles, skin, and how the body handles blood sugar. It is the most-researched nutritional ingredient in women with PCOS, which is why it sits at the centre of the powder rather than at the edge of it. Four grams is the full studied amount.",
+          "research": [
+            {
+              "citation": "Greff D, Juhász AE, Váncsa S, et al. Inositol is an effective and safe treatment in polycystic ovary syndrome: a systematic review and meta-analysis of randomized clinical trials. Reproductive Biology and Endocrinology, 2023;21:10.",
+              "pmid": "36703143",
+              "note": "A systematic review and meta-analysis pooling randomised trials in women with PCOS."
+            },
+            {
+              "citation": "Gerli S, Papaleo E, Ferrari A, Di Renzo GC. Randomized, double blind placebo-controlled trial: effects of myo-inositol on ovarian function and metabolic factors in women with PCOS. European Review for Medical and Pharmacological Sciences, 2007;11(5):347–354.",
+              "pmid": "18074942",
+              "note": "One of the randomised trials at the 4 g dose."
+            },
+            {
+              "citation": "Zacchè MM, Caputo L, Filippis S, et al. Efficacy of myo-inositol in the treatment of cutaneous disorders in young women with polycystic ovary syndrome. Gynecological Endocrinology, 2009;25(8):508–513.",
+              "pmid": "19551544",
+              "note": "Looked specifically at skin and hair-related outcomes in young women with PCOS."
+            }
+          ],
+          "honest_note": "The inositol evidence is hormonal and metabolic, not hair growth. Our own spec is explicit about this: position it as hormonal support, never as a hair claim. We are repeating it here because it is the ingredient a brand would most be tempted to overstate."
+        },
+        {
+          "name": "D-chiro-inositol",
+          "latin": null,
+          "in": "partner",
+          "dose": "100 mg — the 40:1 ratio with myo-inositol",
+          "show_dose": true,
+          "claim_status": "no_authorised_claim",
+          "defend": false,
+          "why": "Included with myo-inositol rather than instead of it, at the 40 to 1 ratio the research uses. The ratio is the point: this is the proportion found in the body, and it is what the trials studied.",
+          "research": [
+            {
+              "citation": "Nordio M, Basciani S, Camajani E. The 40:1 myo-inositol/D-chiro-inositol plasma ratio is able to restore ovulation in PCOS patients: comparison with other ratios. European Review for Medical and Pharmacological Sciences, 2019;23(12):5512–5521.",
+              "pmid": "31298405",
+              "note": "The study the 40:1 ratio comes from, comparing it against other ratios."
+            },
+            {
+              "citation": "Nordio M, Proietti E. The combined therapy with myo-inositol and D-chiro-inositol reduces the risk of metabolic disease in PCOS overweight patients compared to myo-inositol supplementation alone. European Review for Medical and Pharmacological Sciences, 2012;16(5):575–581.",
+              "pmid": "22774396",
+              "note": "Compared the two inositols combined against myo-inositol on its own."
+            }
+          ],
+          "honest_note": null
+        },
+        {
+          "name": "Vitamin C",
+          "latin": "Ascorbic acid",
+          "in": "partner",
+          "dose": "250 mg",
+          "show_dose": true,
+          "claim_status": "efsa_authorised",
+          "defend": false,
+          "why": "Vitamin C contributes to normal collagen formation for the normal function of skin, and it increases iron absorption. That second one is why it is in the powder and the iron is in the capsule: taken together, one helps you absorb the other.",
+          "research": [
+            {
+              "citation": "Teucher B, Olivares M, Cori H. Enhancers of iron absorption: ascorbic acid and other organic acids. International Journal for Vitamin and Nutrition Research, 2004;74(6):403–419.",
+              "pmid": "15743017",
+              "note": "On ascorbic acid's effect on non-haem iron absorption."
+            }
+          ],
+          "honest_note": null
+        },
+        {
+          "name": "Hyaluronic acid",
+          "latin": null,
+          "in": "partner",
+          "dose": "120 mg",
+          "show_dose": true,
+          "claim_status": "no_authorised_claim",
+          "defend": false,
+          "why": "Included for skin and scalp hydration. We will be straight with you about this one: it is the ingredient with the most perceived value for the least cost in the whole formula.",
+          "research": [
+            {
+              "citation": "Hsu TF, Su ZR, Hsieh YH, et al. Oral Hyaluronan Relieves Wrinkles and Improves Dry Skin: A 12-Week Double-Blinded, Placebo-Controlled Study. Nutrients, 2021;13(7):2220.",
+              "pmid": "34203487",
+              "note": "A randomised, placebo-controlled trial on skin hydration."
+            }
+          ],
+          "honest_note": "This is a skin ingredient, not a hair ingredient, and it is inexpensive relative to how good it looks on a label. We are telling you that because if we did not, you would have no way of knowing which items on an ingredient list are load-bearing and which are decoration."
+        },
+        {
+          "name": "L-lysine",
+          "latin": null,
+          "in": "partner",
+          "dose": "500 mg",
+          "show_dose": true,
+          "claim_status": "no_authorised_claim",
+          "defend": false,
+          "why": "One of the three keratin amino acids in the powder. Lysine is bulky, which is precisely why it cannot live in the capsule, and it pairs with the iron in Hero.",
+          "research": [
+            {
+              "citation": "Rushton DH. Nutritional factors and hair loss. Clinical and Experimental Dermatology, 2002;27(5):396–404.",
+              "pmid": "12190640",
+              "note": "The reference paper on the amino acid and iron picture in women's hair loss."
+            }
+          ],
+          "honest_note": null
+        },
+        {
+          "name": "L-cysteine",
+          "latin": null,
+          "in": "partner",
+          "dose": "100 mg",
+          "show_dose": true,
+          "claim_status": "no_authorised_claim",
+          "defend": false,
+          "why": "The sulphur amino acid that keratin needs and that collagen completely lacks. It is placed next to the collagen on purpose — that gap is the reason it moved into the powder.",
+          "research": [
+            {
+              "citation": "Rushton DH. Nutritional factors and hair loss. Clinical and Experimental Dermatology, 2002;27(5):396–404.",
+              "pmid": "12190640",
+              "note": "Covers the amino acid requirements involved in hair."
+            }
+          ],
+          "honest_note": null
+        },
+        {
+          "name": "L-methionine",
+          "latin": null,
+          "in": "partner",
+          "dose": "100 mg",
+          "show_dose": true,
+          "claim_status": "no_authorised_claim",
+          "defend": false,
+          "why": "The third keratin building block, alongside lysine and cysteine.",
+          "research": [
+            {
+              "citation": "Rushton DH. Nutritional factors and hair loss. Clinical and Experimental Dermatology, 2002;27(5):396–404.",
+              "pmid": "12190640",
+              "note": "Covers the amino acid requirements involved in hair."
+            }
+          ],
+          "honest_note": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "_readme": [
+    "This is the brand-wide control file. Everything here appears across many pages.",
+    "Change a value once here and it updates the whole site.",
+    "",
+    "Tokens you can use inside any copy, anywhere on the site:",
+    "  {{partner}}        -> the powder's full name  (Saede Support)",
+    "  {{partner_short}}  -> the powder's short name (Support)",
+    "  {{hero}}           -> the capsule's full name (Saede Hero)",
+    "  {{hero_short}}     -> the capsule's short name (Hero)"
+  ],
+  "brand": {
+    "name": "Saede",
+    "domain": "saede.eu",
+    "url": "https://saede.eu",
+    "meaning": "Ray of light.",
+    "tagline": "Every ray finds its way.",
+    "_tagline_note": "Taken from the header of your own Duo Spec and cost documents. It appears in the opening sequence, the footer and the social share cards.",
+    "founder": "Sonja",
+    "email": "hello@saede.eu",
+    "market": "European Union",
+    "made_in": "Made in the EU",
+    "company_country": "PLACEHOLDER — company registration country not yet decided (leaning Spain; the spec says Spain first, EU-wide)"
+  },
+  "flags": {
+    "show_open_decisions": true,
+    "_show_open_decisions_note": "true = TBD markers are visible on the page while you are still deciding. Set to false before launch and every marker disappears.",
+    "show_doses_globally": true,
+    "_show_doses_note": "Now TRUE. The doses come from Saede Duo Spec v4 and are shown on every ingredient card. Individual ingredients can still be hidden with show_dose:false in ingredients.json.",
+    "launch_status": "coming_soon",
+    "_launch_status_note": "'coming_soon' turns every buy button into a join-the-launch-list button and shows the COMING SOON marker. Change to 'live' when you start selling and the buttons revert to their real checkout links.",
+    "show_opening": true,
+    "_show_opening_note": "The film-then-name opening on the homepage. It plays once per browsing session, can always be skipped, and is skipped automatically for anyone who has asked for reduced motion. Set to false to turn it off entirely."
+  },
+  "products": {
+    "hero": {
+      "name": "Saede Hero",
+      "short": "Hero",
+      "form": "Daily capsule",
+      "role": "The main character",
+      "_spec_note": "The manufacturer spec v4 calls this 'Saede Core'. The packaging renders and the brand decision say 'Hero'. Keep the spec and the site in step when you send the next revision to the manufacturer."
+    },
+    "partner": {
+      "name": "Saede Support",
+      "short": "Support",
+      "form": "Daily powder",
+      "role": "The trusted partner",
+      "_spec_note": "The manufacturer spec v4 calls this 'Saede Restore'. Name is now decided as 'Support'."
+    }
+  },
+  "nav": [
+    {
+      "label": "Concerns",
+      "type": "dropdown",
+      "items": [
+        {
+          "label": "Hair",
+          "href": "/concerns/hair/",
+          "note": "Live now"
+        },
+        {
+          "label": "Skin",
+          "href": null,
+          "note": "In development"
+        },
+        {
+          "label": "PCOS",
+          "href": null,
+          "note": "In development"
+        },
+        {
+          "label": "Gut",
+          "href": null,
+          "note": "In development"
+        },
+        {
+          "label": "Metabolic health",
+          "href": null,
+          "note": "In development"
+        }
+      ]
+    },
+    {
+      "label": "The Duo",
+      "href": "/the-duo/"
+    },
+    {
+      "label": "Ingredients",
+      "href": "/ingredients/"
+    },
+    {
+      "label": "How it works",
+      "href": "/how-it-works/"
+    },
+    {
+      "label": "Learn",
+      "href": "/learn/"
+    },
+    {
+      "label": "My story",
+      "href": "/my-story/"
+    }
+  ],
+  "nav_cta": {
+    "label": "Join the list",
+    "href": "/#join"
+  },
+  "nav_cta_live": {
+    "label": "Start your Saede",
+    "href": "/membership/"
+  },
+  "_nav_cta_note": "While launch_status is 'coming_soon' the site uses nav_cta. Switch launch_status to 'live' and it uses nav_cta_live instead.",
+  "footer": {
+    "blurb": "Full-dose support for women, built on root causes and radical honesty. Our first system is hair.",
+    "columns": [
+      {
+        "title": "Shop",
+        "links": [
+          {
+            "label": "The Duo",
+            "href": "/the-duo/"
+          },
+          {
+            "label": "Membership",
+            "href": "/membership/"
+          },
+          {
+            "label": "Ingredients & science",
+            "href": "/ingredients/"
+          },
+          {
+            "label": "How it works",
+            "href": "/how-it-works/"
+          }
+        ]
+      },
+      {
+        "title": "Concerns",
+        "links": [
+          {
+            "label": "Hair",
+            "href": "/concerns/hair/"
+          },
+          {
+            "label": "Skin",
+            "href": null
+          },
+          {
+            "label": "PCOS",
+            "href": null
+          },
+          {
+            "label": "Gut",
+            "href": null
+          },
+          {
+            "label": "Metabolic health",
+            "href": null
+          }
+        ]
+      },
+      {
+        "title": "Saede",
+        "links": [
+          {
+            "label": "My story",
+            "href": "/my-story/"
+          },
+          {
+            "label": "Learn",
+            "href": "/learn/"
+          },
+          {
+            "label": "Your account",
+            "href": "/account/"
+          },
+          {
+            "label": "FAQ",
+            "href": "/faq/"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact/"
+          }
+        ]
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy",
+        "href": "/privacy/"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms/"
+      },
+      {
+        "label": "Shipping & returns",
+        "href": "/shipping/"
+      },
+      {
+        "label": "Subscription terms",
+        "href": "/subscription-terms/"
+      }
+    ]
+  },
+  "signup": {
+    "eyebrow": "Launching soon",
+    "heading": "Be the first to know.",
+    "paragraphs": [
+      "Saede is not on sale yet. We are finishing the formula with our manufacturer and getting the testing done properly rather than quickly.",
+      "Leave your email and we will write to you the day it launches. That is the only thing we will use it for."
+    ],
+    "placeholder": "your@email.com",
+    "button": "Keep me posted",
+    "note": "One email when we launch, and occasionally something worth reading from the Learn hub. No selling to anyone, ever, and one click to leave. See our privacy page.",
+    "success": "Thank you. You are on the list — we will write to you when Saede launches.",
+    "error": "That email address does not look right. Could you check it?",
+    "_endpoint_note": "WHERE SIGNUPS GO. Set by 'provider':\n  \"cloudflare\" (current) — posts to the Pages Function in functions/api/subscribe.js, which stores addresses in a Cloudflare KV namespace. One setup step in the dashboard: create a KV namespace and bind it as SIGNUPS. The instructions are in the top of that file. Until the binding exists the form tells the visitor to email instead — it never pretends to have stored an address.\n  \"netlify\" — Netlify Forms. Only works on Netlify.\n  null + 'endpoint' set — posts to any provider URL (Mailchimp, Kit, Klaviyo, Buttondown).\n  null + no endpoint — stores nothing, and says so.",
+    "endpoint": "/api/subscribe",
+    "success_no_endpoint": "Thank you — but please read this. Our signup list is not connected yet, so we have not stored your address. Email **hello@saede.eu** and we will add you by hand. We would rather tell you that than pretend.",
+    "provider": "cloudflare",
+    "form_name": "launch-list"
+  },
+  "disclaimer": {
+    "short": "Saede is a food supplement. It is not a substitute for a varied, balanced diet or a healthy lifestyle, and it is not a substitute for medical care. If you are losing your hair, please also see a doctor and get your blood tested. If you are pregnant, breastfeeding or taking medication, speak to a healthcare professional before starting.",
+    "footer": "Saede products are food supplements. Food supplements are not a substitute for a varied and balanced diet or a healthy lifestyle. Do not exceed the recommended daily dose. Keep out of reach of young children. Nothing on this website is medical advice, and no Saede product is intended to diagnose, treat, cure or prevent any disease. Always consult a doctor or qualified healthcare professional about hair loss, PCOS, or any ongoing symptom, and about any supplement you plan to take alongside prescribed medication. Doses shown are target values pending our manufacturer's technical and regulatory sign-off against EU and AESAN maximum permitted levels."
+  },
+  "badges": [
+    {
+      "title": "Third-party lab tested",
+      "sub": "Heavy metals & microbes",
+      "status": "pending"
+    },
+    {
+      "title": "Label accuracy verified",
+      "sub": "What's on the label is in the capsule",
+      "status": "pending"
+    },
+    {
+      "title": "GMP certified facility",
+      "sub": "Good Manufacturing Practice",
+      "status": "pending"
+    },
+    {
+      "title": "Made in the EU",
+      "sub": "European manufacturing",
+      "status": "pending"
+    },
+    {
+      "title": "Per-batch certificate",
+      "sub": "Certificate of analysis, published",
+      "status": "pending"
+    }
+  ],
+  "_badges_note": "status 'pending' renders the badge dashed and slightly faded. Change to 'confirmed' once the manufacturer has provided the documentation, and add a 'href' to link to the published certificate."
+}

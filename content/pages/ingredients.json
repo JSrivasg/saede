@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Ingredients & science — Saede",
+    "description": "Every ingredient in Saede, why it is there in plain language, and a link to the actual research — including where the evidence is thinner than the industry admits.",
+    "path": "/ingredients/"
+  },
+  "sections": [
+    {
+      "type": "page_hero",
+      "eyebrow": "Ingredients & science",
+      "heading": "Every ingredient, and the reason it earned its place.",
+      "lead": "Twenty ingredients, every dose published, each one written so you can understand it without a biology degree and sourced so you can check us without taking our word for anything.",
+      "mood": "veil"
+    },
+    {
+      "type": "prose",
+      "heading": "How to read this page",
+      "paragraphs": [
+        "For every ingredient we tell you **the exact amount** in a daily serving, **why it is here** in one sentence a friend would use, and then we link **the research** — real, published, and specific to the ingredient wherever such research exists.",
+        "Where it does not exist, we say so. You will find notes on this page admitting that a study was done in men, that the strongest evidence for an ingredient is about skin rather than hair, or that we could not find a human trial at all. Those notes cost us sales. We are keeping them, because a transparency page that only contains flattering facts is just an advertisement with citations."
+      ],
+      "statement": "If we ever quietly delete one of these notes, you should stop trusting the rest of the page.",
+      "mood": "silk"
+    },
+    {
+      "type": "ingredients",
+      "mood": "nacre"
+    },
+    {
+      "type": "prose",
+      "tint": true,
+      "eyebrow": "On doses",
+      "heading": "Why the amounts matter more than the list.",
+      "paragraphs": [
+        "It is easy to put fifteen impressive ingredients on a label. It costs considerably more to include any of them at the amount that was actually studied. That single difference separates supplements that do something from supplements that sell well, and it is almost invisible to the person buying.",
+        "Saede is formulated to the amounts used in the research — saw palmetto at 320 mg, pumpkin seed oil at 400 mg, ashwagandha at 600 mg, myo-inositol at 4 g — and those are written into our manufacturing specification. It is the whole promise, and the reason we cannot be the cheapest thing you have ever bought."
+      ],
+      "mood": "shore"
+    },
+    {
+      "type": "badges",
+      "eyebrow": null,
+      "heading": "Proof, not promises.",
+      "paragraphs": [
+        "Third-party tested, batch by batch, with the certificates published rather than merely mentioned."
+      ],
+      "mood": "caustic"
+    },
+    {
+      "type": "cta",
+      "heading": "Questions we have not answered here?",
+      "paragraphs": [
+        "Ask us. If we do not know, we will tell you that instead of guessing."
+      ],
+      "ctas": [
+        {
+          "label": "Read the FAQ",
+          "href": "/faq/",
+          "style": "ghost"
+        },
+        {
+          "label": "Contact us",
+          "href": "/contact/",
+          "style": "ghost"
+        }
+      ],
+      "mood": "glow"
+    },
+    {
+      "type": "disclaimer"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+/* ==========================================================================
+   SAEDE — DESIGN TOKENS
+   The single source of truth for colour, type, space and motion.
+   Change a value here and it changes everywhere on the site.
+   ========================================================================== */
+
+:root {
+  /* --- Pearl palette -----------------------------------------------------
+     Powdery, matte, low-saturation. Nothing here should ever feel neon.
+     The nacre gradients are built by layering these at low opacity.        */
+  --ivory:        #FBF7F3;   /* base page background */
+  --ivory-deep:   #F6F0E9;   /* alternating section background */
+  --pearl:        #FFFFFF;   /* cards, surfaces */
+  --blush:        #F4D9D5;
+  --peach:        #F7E2CE;
+  --lilac:        #E4DCEC;
+  --mint:         #D9E7DE;
+  --gold:         #E9D9B0;
+
+  /* Cloud pinks — lifted from the pearly sunset-cloud reference. Warmer and
+     rosier than the base blush, and the colour the site leans on most. */
+  --cloud-rose:   #F0C9C4;   /* the deepest pink in the clouds */
+  --cloud-pink:   #F6DAD3;   /* the mid tone, where light catches */
+  --cloud-veil:   #FBE8E0;   /* the palest edge, almost ivory */
+  --cloud-amber:  #F6DCC2;   /* the warm glow behind the cloud bank */
+
+  --plum:         #3E3440;   /* primary text / deep accent */
+  --plum-soft:    #5C5060;   /* secondary text */
+  --plum-mute:    #68606A;   /* tertiary text — clears 4.5:1 even where the warm textures pile up */
+  --cta:          #745D68;   /* links and buttons — clears 4.5:1 on every mood ground, textures included */
+  --cta-deep:     #6F5663;   /* button hover */
+
+  --line:         #EAE0DA;   /* hairlines, card borders */
+  --line-soft:    #F1E9E3;
+
+  /* --- Nacre gradients ---------------------------------------------------
+     The inside of a shell catching light. Used sparingly: hero grounds,
+     section dividers, product accents, the pearl motif.                    */
+  --nacre-hero:
+     radial-gradient(120% 90% at 10% 6%,  rgba(240,201,196,.92) 0%, rgba(240,201,196,0) 56%),
+     radial-gradient(100% 80% at 86% 2%,  rgba(246,218,211,.88) 0%, rgba(246,218,211,0) 58%),
+     radial-gradient(115% 90% at 62% 100%,rgba(246,220,194,.80) 0%, rgba(246,220,194,0) 62%),
+     radial-gradient(95%  75% at 24% 92%, rgba(228,220,236,.62) 0%, rgba(228,220,236,0) 64%),
+     radial-gradient(85%  65% at 96% 62%, rgba(217,231,222,.42) 0%, rgba(217,231,222,0) 66%),
+     radial-gradient(80%  60% at 48% 42%, rgba(255,255,255,.72) 0%, rgba(255,255,255,0) 72%),
+     linear-gradient(170deg, var(--cloud-veil) 0%, var(--ivory) 62%, var(--ivory-deep) 100%);
+
+  --nacre-band:
+     linear-gradient(100deg,
+       rgba(240,201,196,.68) 0%,
+       rgba(246,218,211,.60) 20%,
+       rgba(246,220,194,.52) 40%,
+       rgba(233,217,176,.40) 56%,
+       rgba(217,231,222,.46) 74%,
+       rgba(228,220,236,.62) 100%);
+
+  /* A soft, cloud-like ground — used for the calmer full-width bands */
+  --cloud-wash:
+     radial-gradient(120% 80% at 20% 0%,   rgba(246,218,211,.85) 0%, rgba(246,218,211,0) 58%),
+     radial-gradient(100% 70% at 82% 8%,   rgba(240,201,196,.62) 0%, rgba(240,201,196,0) 60%),
+     radial-gradient(120% 90% at 60% 100%, rgba(246,220,194,.70) 0%, rgba(246,220,194,0) 62%),
+     linear-gradient(180deg, var(--cloud-veil), var(--ivory));
+
+  --nacre-pearl:
+     radial-gradient(circle at 32% 28%,
+       rgba(255,255,255,.98) 0%,
+       rgba(251,232,224,.94) 22%,
+       rgba(246,218,211,.90) 42%,
+       rgba(240,201,196,.88) 58%,
+       rgba(228,220,236,.88) 74%,
+       rgba(217,231,222,.84) 90%,
+       rgba(233,217,176,.80) 100%);
+
+  /* --- Typography --------------------------------------------------------
+     Playfair Display: the same high-contrast, editorial feeling as the
+     reference wordmark, but with sturdier strokes. Bodoni's hairlines are
+     beautiful at poster size and disappear everywhere else — this holds up
+     at heading sizes and on a phone, which is where most of it is read.
+
+     Mulish: a soft humanist sans with open, rounded shapes. Warmer than a
+     geometric, and very easy to read over long stretches of text.           */
+  --font-display: "Playfair Display", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-body:    "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  /* The wordmark is set in capitals with wide tracking everywhere it
+     appears — header, opening and front page — so it reads as one mark.
+     It follows the lettering on the packaging. */
+  --track-wordmark: .30em;
+
+  /* Fluid type scale — clamp(min, preferred, max) */
+  --t-hero:   clamp(2.45rem, 1.35rem + 4.4vw, 5.1rem);
+  --t-h1:     clamp(2.1rem,  1.35rem + 3.1vw, 3.9rem);
+  --t-h2:     clamp(1.72rem, 1.22rem + 2.1vw, 2.85rem);
+  --t-h3:     clamp(1.24rem, 1.06rem + 0.72vw, 1.6rem);
+  --t-lead:   clamp(1.09rem, 1rem + 0.45vw, 1.36rem);
+  --t-body:   clamp(1.03rem, 0.99rem + 0.2vw, 1.14rem);
+  --t-small:  0.93rem;
+  --t-micro:  0.79rem;
+
+  --lh-tight: 1.08;
+  --lh-head:  1.16;
+  --lh-body:  1.72;
+
+  /* --- Space (8px rhythm) ------------------------------------------------ */
+  --s-1: .25rem;  --s-2: .5rem;   --s-3: .75rem;  --s-4: 1rem;
+  --s-5: 1.5rem;  --s-6: 2rem;    --s-7: 3rem;    --s-8: 4rem;
+  --s-9: 6rem;    --s-10: 8rem;
+
+  --section-y: clamp(3.75rem, 2rem + 7vw, 8rem);   /* vertical section padding */
+  --gutter:    clamp(1.25rem, .6rem + 2.4vw, 2.5rem);
+  --measure:   68ch;      /* max reading width for body copy */
+  --wide:      1180px;    /* max layout width */
+  --narrow:    760px;
+
+  /* --- Shape & depth ----------------------------------------------------- */
+  --r-sm: 10px;  --r-md: 18px;  --r-lg: 28px;  --r-xl: 40px;  --r-pill: 999px;
+
+  /* Soft, diffuse, never harsh drop shadows */
+  --shadow-sm: 0 1px 2px rgba(62,52,64,.04), 0 4px 14px rgba(62,52,64,.045);
+  --shadow-md: 0 2px 6px rgba(62,52,64,.045), 0 14px 40px rgba(62,52,64,.07);
+  --shadow-lg: 0 4px 12px rgba(62,52,64,.05),  0 30px 70px rgba(62,52,64,.09);
+  --shadow-glow: 0 0 0 1px rgba(255,255,255,.6) inset, 0 10px 34px rgba(138,110,123,.16);
+
+  --ease: cubic-bezier(.22,.61,.36,1);
+  --dur:  .5s;
+
+  /* Powdery grain overlay — gives the matte, non-digital finish.
+     Inline SVG turbulence, no network request. */
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.42'/%3E%3C/svg%3E");
+}

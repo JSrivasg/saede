@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "title": "Terms — Saede",
+    "description": "The terms that apply when you buy from Saede.",
+    "path": "/terms/"
+  },
+  "sections": [
+    {
+      "type": "page_hero",
+      "eyebrow": "Terms",
+      "heading": "The terms, in language you can actually read.",
+      "lead": "We will keep this as short as the law allows.",
+      "mood": "veil"
+    },
+    {
+      "type": "legal",
+      "note": "DRAFT — NOT LEGAL TEXT. Written as a plain-language starting point so the page exists and reads in Saede's voice. It must be reviewed and completed by a qualified lawyer for the EU market before launch. Company registration country is not yet decided (leaning Spain), and several clauses depend on that.",
+      "body": [
+        "## Who we are",
+        "PLACEHOLDER — registered company name, address, registration number and VAT number. Required before trading.",
+        "## What Saede is",
+        "Saede products are food supplements. They are not medicines. They are not intended to diagnose, treat, cure or prevent any disease, and they are not a substitute for a varied and balanced diet, a healthy lifestyle, or medical care.",
+        "Nothing on this website is medical advice. Please consult a doctor or qualified healthcare professional about hair loss, PCOS or any ongoing symptom, and before combining any supplement with prescribed medication.",
+        "## Ordering",
+        "Prices include VAT where applicable and are shown before you pay. A contract is formed when we confirm your order by email. If we have made an obvious pricing error we will contact you rather than silently cancelling.",
+        "## Your right to change your mind",
+        "Under EU consumer law you have 14 days from receiving your order to withdraw from the contract, without giving a reason. See [shipping and returns](/shipping/) for how, and for the limits that apply to opened food supplements on hygiene grounds.",
+        "## Memberships",
+        "Membership terms, including the three-delivery minimum and how to cancel, are set out on the [subscription terms](/subscription-terms/) page and shown again at checkout before you pay.",
+        "## PLACEHOLDER — to be completed by a lawyer",
+        "Liability, governing law and jurisdiction, dispute resolution and the EU ODR platform reference, intellectual property, acceptable use of the community, and the process for changing these terms. All depend on the country of registration, which is not yet decided."
+      ],
+      "mood": "shore"
+    },
+    {
+      "type": "disclaimer"
+    }
+  ]
+}
